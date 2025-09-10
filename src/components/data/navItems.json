@@ -1,0 +1,16 @@
+{
+  "navLink": [
+    {
+      "itemName": "Home"
+    },
+    {
+      "itemName": "About"
+    },
+    {
+      "itemName": "Services"
+    },
+    {
+      "itemName": "Contact"
+    }
+  ]
+}
