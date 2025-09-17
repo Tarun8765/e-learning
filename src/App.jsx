@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Career from "./pages/Career";
 import Services from "./pages/Services";
+import Footer from "./components/Footer/Footer";
 
 import { Route, Routes } from "react-router-dom";
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/career" element={<Career />} />
         <Route path="/services" element={<Services />} />
       </Routes>
+      <Footer />
     </>
   );
 }
