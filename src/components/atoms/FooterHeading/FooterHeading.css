@@ -1,0 +1,15 @@
+.footer__widget-title {
+  font-weight: 700;
+  color:#fff;
+  padding-bottom:20px;
+  position: relative;
+}
+.footer__widget-title:before{
+  content: '';
+  position: absolute;
+  width:30px;
+  height:4px;
+  background: #5751e1;
+  bottom:0;
+  border-radius: 4px;
+}
