@@ -1,0 +1,76 @@
+{
+    "usefullLinks":[
+        
+        {
+            "href":"/",
+            "content":"Our Values"
+
+        }  , {
+            "href":"/",
+            "content":"Our Advisory board"
+
+        }  , {
+            "href":"/",
+            "content":"our partners"
+
+        }  , {
+            "href":"/",
+            "content":"Become a partners"
+
+        } ,  {
+            "href":"/",
+            "content":"Work at Future Learn"
+
+        },{
+            "href":"/",
+            "content":"Quizlet Plus"
+
+        }
+    ],
+    "ourCompany":[
+               {
+         
+            "href":"/",
+            "content":"Contact Us"
+
+        }  , {
+            "href":"/",
+            "content":"Become Teacher"
+
+        }  , {
+            "href":"/",
+            "content":"Blog"
+
+        }  , {
+            "href":"/",
+            "content":"Instructor"
+
+        }  , {
+            "href":"/",
+            "content":"Events"
+
+        } 
+    ],
+    "foot_Links":[
+         {
+            "href":"https://www.facebook.com/"
+
+        }  , {
+            "href":"https://x.com/"
+            
+
+        }  , {
+            "href":"https://www.instagram.com"
+
+        }  , {
+            "href":"https://www.youtube.com/"
+            
+
+        }  , {
+            "href":"https://www.whatsapp.com/"
+            
+
+        } 
+    ]
+    
+}
