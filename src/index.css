@@ -47,20 +47,20 @@ ul,p{
   text-decoration: none;
 }
 .list-warp li {
-  padding-left:10px;
-  padding-right:10px;
+  padding-left: 10px;
+  padding-right: 10px;
   position: relative;
 }
-.list-warp li::before{
-  content: '';
-  width:1px;
+.list-warp li::before {
+  content: "";
+  width: 1px;
   background: #fff;
   height: 13px;
   position: absolute;
   left:0;
   top:7px;
 }
-.list-warp li:last-child{
+.list-warp li:last-child {
   padding-right: 0;
 }
 .list-warp li:first-child:before{
@@ -85,4 +85,7 @@ ul,p{
   flex-direction: column;
   gap: 10px;
   margin-top: 20px;
+}
+.list-warp li:first-child:before {
+  width: 0;
 }
