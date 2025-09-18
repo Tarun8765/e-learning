@@ -1,16 +1,47 @@
 {
+  "navSocialLinks": [
+    {
+      "items": "facebook",
+      "url": "https://img.icons8.com/ios-filled/50/facebook-new.png",
+      "href": "https://www.facebook.com/"
+    },
+    {
+      "items": "twitter",
+      "url": "https://img.icons8.com/ios-filled/50/twitterx--v1.png",
+      "href": "https://x.com/"
+    },
+    {
+      "items": "whatsapp",
+      "url": "https://img.icons8.com/ios-filled/50/whatsapp--v1.png",
+      "href": "https://www.whatsapp.com/"
+    },
+    {
+      "items": "linkedin",
+      "url": "https://img.icons8.com/ios-filled/50/linkedin.png",
+      "href": "https://www.linkedin.com/"
+    },
+    {
+      "items": "youtube",
+      "url": "https://img.icons8.com/ios-glyphs/50/youtube-play.png",
+      "href": "https://www.youtube.com/"
+    }
+  ],
   "navLink": [
     {
-      "itemName": "Home"
+      "itemName": "Home",
+      "route": "/"
     },
     {
-      "itemName": "About"
+      "itemName": "About",
+      "route": "/about"
     },
     {
-      "itemName": "Services"
+      "itemName": "Services",
+      "route": "/services"
     },
     {
-      "itemName": "Contact"
+      "itemName": "Contact",
+      "route": "/contact"
     }
   ]
 }
