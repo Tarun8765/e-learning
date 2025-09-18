@@ -6,8 +6,8 @@ import brand1 from "/images/slider/brand_1.png";
 import brand2 from "/images/slider/brand_2.png";
 import brand3 from "/images/slider/brand_3.png";
 import brand4 from "/images/slider/brand_4.png";
-import brand5 from "../../../../pu/images/slider/brand_5.png";
-import star from "../../../../public/images/slider/brand_star.svg";
+import brand5 from "/images/slider/brand_5.png";
+import star from "/images/slider/brand_star.svg";
 
 export default function CourseSlider(props) {
   const OPTIONS = { loop: true };
