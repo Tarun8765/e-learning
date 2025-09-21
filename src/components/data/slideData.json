@@ -1,0 +1,52 @@
+{
+  "slideData": [
+    {
+      "imgURL": "/images/courseSlider/course_thumb01.jpg",
+      "role": "Development",
+      "rating": "4.3",
+      "title": "The Fundamental of Mahts",
+      "author": "David Millar",
+      "price": "$19.00"
+    },
+    {
+      "imgURL": "/images/courseSlider/course_thumb02.jpg",
+      "role": "Desigmer",
+      "rating": "4.5",
+      "title": "The Complete Graphic Design for Biginners Design for Biginners",
+      "author": "David Millar",
+      "price": "$19.00"
+    },
+    {
+      "imgURL": "/images/courseSlider/course_thumb03.jpg",
+      "role": "Marketing",
+      "rating": "4.3",
+      "title": "Learning Digital Marketing on Facebook",
+      "author": "David Millar",
+      "price": "$24.00"
+    },
+    {
+      "imgURL": "/images/courseSlider/course_thumb04.jpg",
+      "role": "Business",
+      "rating": "4.8",
+      "title": "Financial Analyst Training & Investing Course",
+      "author": "David Millar",
+      "price": "$12.00"
+    },
+    {
+      "imgURL": "/images/courseSlider/course_thumb05.jpg",
+      "role": "Data Science",
+      "rating": "4.5",
+      "title": "The Fundamental of Mahts",
+      "author": "David Millar",
+      "price": "$27.00"
+    },
+    {
+      "imgURL": "/images/courseSlider/course_thumb06.jpg",
+      "role": "Mathematic",
+      "rating": "4.7",
+      "title": "The Fundamental of Mahts",
+      "author": "David Millar",
+      "price": "$19.00"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+.course_nav .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 5px 35px;
+  padding: 0 0 18px;
+  position: relative;
+  z-index: 1;
+  color: #6d6c80;
+}
+
+.course_nav .nav li a {
+  text-decoration: none;
+  color: rgb(127, 126, 151);
+  position: relative;
+  padding: 0;
+  border-style: none;
+  font-size: 17px;
+  font-weight: 500;
+  background: transparent;
+}
+
+.course_nav .nav li a:hover {
+  cursor: pointer;
+  color: #161439;
+  transition: 0.4s;
+}
+
+.courses__nav .nav::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 3px;
+  z-index: -1;
+  background: rgb(217, 217, 243);
+  border-radius: 30px;
+}
+
+.courses__nav .nav .nav-item .nav-link.active::after {
+  width: 60px;
+}
