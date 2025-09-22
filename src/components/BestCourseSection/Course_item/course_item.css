@@ -62,7 +62,7 @@
 .course-price {
   text-decoration: none;
   color: #5751e1;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /* /////////////////////////////// */
@@ -105,18 +105,22 @@
   border-radius: 6px;
 }
 
-.title {
+.card-title a {
+  text-decoration: none;
+  color: #161439;
+}
+
+.card-title {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.4;
   margin: 0 0 15px;
-  height: 25px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.title a {
+.thumb_title a {
   text-decoration: none;
   color: black;
   line-height: 1.5;

@@ -12,7 +12,6 @@ function BestCourseSection() {
           <div className="col-lg-12">
             <CourseHead />
             <CourseNav />
-            {/* <CourseItemsSlides /> */}
             <SlickSlider />
           </div>
         </div>

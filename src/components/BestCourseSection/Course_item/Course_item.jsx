@@ -20,7 +20,7 @@ function Course_item({ data }) {
             <p className="avg-rating mx-2">⭐ ({data?.rating} Reviews)</p>
           </div>
 
-          <h5 className="title my-2">
+          <h5 className="card-title">
             <a href="#">{data?.title}</a>
           </h5>
           <p className="author text-secondary ">

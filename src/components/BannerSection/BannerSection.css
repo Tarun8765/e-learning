@@ -1,0 +1,12 @@
+.banner_area {
+  position: relative;
+  background: url("/public/images/banner_bg.png");
+}
+
+.banner_area .line-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}

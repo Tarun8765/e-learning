@@ -6,7 +6,7 @@ function CourseHead() {
         <span className="px-4">Top Class Courses</span>
       </div>
 
-      <h1 className="title">Explore Our World's Best Courses</h1>
+      <h2 className="title">Explore Our World's Best Courses</h2>
 
       <p className="desc">
         When known printer took a galley of type scrambl edmake
