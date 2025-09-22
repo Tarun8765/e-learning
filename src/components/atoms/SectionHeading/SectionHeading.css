@@ -1,0 +1,10 @@
+.title{
+    font-size: 36px;
+    line-height: 1.33;
+    margin: 0 0;
+    letter-spacing: -0.75px;
+    text-transform: capitalize;
+    color: #161439;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
