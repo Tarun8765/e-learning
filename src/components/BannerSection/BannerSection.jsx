@@ -1,6 +1,7 @@
 function BannerSection() {
   return (
     <section>
+      <hr />
       <div className="container">
         <div className="row">
           <div className=" banner-left col-xl-5 col-lg-6">
