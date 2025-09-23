@@ -1,3 +1,18 @@
-.title {
-  font-size: 40px;
+.banner-left {
+  position: relative;
+  z-index: 3;
+}
+.banner_content {
+  text-align: center;
+}
+
+.banner_btn-wrap a {
+  background: #5751e1;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  max-width: 200px;
+}
+.banner_btn-wrap {
+  text-align: center;
 }

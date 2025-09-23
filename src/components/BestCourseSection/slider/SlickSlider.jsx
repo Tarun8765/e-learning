@@ -8,7 +8,7 @@ function SlickSlider() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 700,
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -19,13 +19,21 @@ function SlickSlider() {
           slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
+        },
+      },
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
           dots: true,
         },
       },
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -37,18 +45,11 @@ function SlickSlider() {
           slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
           dots: true,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -62,13 +63,7 @@ function SlickSlider() {
       <Slider {...settings}>
         {slideData?.slideData?.map((item, index) => {
           return (
-            <div
-              style={{
-                boxShadow: "5px 5px rgb(19, 19, 19);",
-              }}
-              className=" d-flex mx-2 "
-              key={index}
-            >
+            <div className=" d-flex mx-2 mb-3    " key={index}>
               <Course_item data={item} />
             </div>
           );

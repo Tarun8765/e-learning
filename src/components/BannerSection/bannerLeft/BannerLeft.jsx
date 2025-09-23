@@ -1,3 +1,5 @@
+import "../bannerLeft/bannerLeft.css";
+
 function bannerleft() {
   return (
     <div className=" banner-left col-xl-5 col-lg-6">
@@ -9,12 +11,14 @@ function bannerleft() {
           <strong>Never Stop</strong>
           Teaching
         </h3>
-        <p>
+        <p className="aos-init aos-animate">
           Every teaching and learning journey is unique Following We'll help
           guide your way.
         </p>
-        <div className="banner_btn-wrap">
-          <a href="#">Start</a>
+        <div className="banner_btn-wrap my-3">
+          <a className="py-3 " href="#">
+            Start Free Trial
+          </a>
         </div>
       </div>
     </div>

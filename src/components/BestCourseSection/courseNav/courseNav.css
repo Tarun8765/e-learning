@@ -19,12 +19,25 @@
   width: 100%;
   height: 3px;
   background: #d9d9f3;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -o-border-radius: 30px;
-  -ms-border-radius: 30px;
+
   border-radius: 30px;
   z-index: -1;
+}
+
+.course_nav ::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background: #5751e1;
+  border-radius: 30px;
+  z-index: 1;
+}
+.course_nav .nav .nav_item .nav_link:hover::after {
+  width: 100%;
+  transition: 0.4s;
 }
 
 .course_nav .nav li a {

@@ -9,7 +9,7 @@ function CourseNav() {
         <li className="nav_item">
           <a className="nav_link border-0 b-secodary"> Design</a>
         </li>
-        <li>
+        <li className="nav_item">
           <a className=" nav_link border-0"> Business</a>
         </li>
         <li className="nav_item">
