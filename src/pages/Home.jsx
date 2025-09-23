@@ -1,10 +1,11 @@
-import React from "react";
-import CourseSlider from "../components/organisms/CourseSlider/CourseSlider";
-
+// import CourseSlider from "../components/organisms/CourseSlider/CourseSlider";
+import BannerSection from "../components/BannerSection/BannerSection";
+import BestCourseSection from "../components/BestCourseSection/BestCourseSection";
 function Home() {
   return (
     <div>
-      <CourseSlider />
+      <BannerSection />
+      <BestCourseSection />
     </div>
   );
 }

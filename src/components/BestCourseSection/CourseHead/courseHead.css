@@ -1,0 +1,32 @@
+.sub-title span {
+  border-radius: 20px;
+  padding: 3px 16px;
+  color: #5751e1;
+  background: #efeefe;
+  font-weight: 500;
+  line-height: 1.62;
+}
+.sub-title {
+  margin-bottom: 20px;
+}
+
+.section_title .title {
+  font-size: 36px;
+  line-height: 1.33;
+  margin: 0 0;
+  letter-spacing: -0.74px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.section_title {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section_title .desc {
+  margin: 10px 0 0;
+  color: #6d6c80;
+  font-size: 16px;
+}
