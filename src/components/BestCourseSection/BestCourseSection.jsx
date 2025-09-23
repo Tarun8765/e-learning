@@ -1,7 +1,7 @@
 import CourseHead from "./CourseHead/CourseHead";
 import CourseNav from "./courseNav/CourseNav";
 import "../BestCourseSection/custom.css";
-import CourseItemsSlides from "./CourseItemsSlides/CourseItemsSlides";
+
 import SlickSlider from "./slider/SlickSlider";
 
 function BestCourseSection() {
