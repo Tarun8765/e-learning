@@ -3,7 +3,7 @@ import "../Course_item/course_item.css";
 
 function Course_item({ data }) {
   return (
-    <div className="item   card">
+    <div className="item card">
       <div className="inter-container">
         <div>
           <img
@@ -19,10 +19,10 @@ function Course_item({ data }) {
             </a>
             <p className="avg-rating mx-2">⭐ ({data?.rating} Reviews)</p>
           </div>
+
           <h5 className="card-title">
             <a href="#">{data?.title}</a>
           </h5>
-
           <p className="author text-secondary ">
             By
             <a
@@ -34,7 +34,7 @@ function Course_item({ data }) {
           </p>
         </div>
 
-        <div className="card-body d-flex justify-content-between align-items-center">
+        <div className="card-body  d-flex justify-content-between align-items-center">
           <a href="#" className="enroll-btn bg-warning text-dark">
             Enroll Now
           </a>

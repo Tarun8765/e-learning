@@ -16,3 +16,17 @@
 .banner_btn-wrap {
   text-align: center;
 }
+
+.banner_content {
+  margin: 60px 0 100px;
+  position: relative;
+  z-index: 3;
+}
+
+.banner_content .title {
+  margin: 0 0 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 40px;
+  color: #161439;
+}
