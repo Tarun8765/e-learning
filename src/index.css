@@ -1,9 +1,12 @@
+@import './styles/mixin.css';
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  color: #6D6C80;
+}
 ul,p{
   margin:0;
 }
