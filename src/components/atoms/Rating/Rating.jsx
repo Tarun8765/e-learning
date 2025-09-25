@@ -1,15 +1,16 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faStar} from '@fortawesome/free-solid-svg-icons'
 import './Rating.css'
 
 export default function Rating({ratingNo}) {
     const maxRating = 5
   return (
-    <div className="rating">
+    <div className="d-flex gap-0 rating ">
         {Array.from({ length: maxRating }, (_, index) => {return(
-            <i
-                key={index}
-                className={index < ratingNo ? "fas fa-star yellowStar" : "far fa-star"}
-            ></i>
+            <div key={index} className={index < ratingNo ? 'yellowStar' : ''}>
+                <FontAwesomeIcon icon={faStar} />
+            </div>
         )})}
     </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import 'AuthorThumb.css'
+import './AuthorThumb.css'
 
 export default function AuthorThumb({src,alt}) {
   return (

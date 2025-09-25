@@ -56,7 +56,7 @@ function Header() {
                       <div className="select-gap d-flex justify-content-center align-items-center">
                         {/* <SvgTag className="mx-0" /> */}
                         <svg
-                          style={{ marginLeft: "17px ", color: "#5751e1;" }}
+                          style={{ marginLeft: "17px ", color: "#5751e1" }}
                           width="18"
                           height="18"
                           viewBox="0 0 18 18"

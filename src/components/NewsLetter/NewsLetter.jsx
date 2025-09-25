@@ -2,7 +2,7 @@
 import React from 'react';
 import "./newsletter.css";
 //import sideimg from "/images/newsletter_shape03.png";
-import boy from"../../../public/images/newsletter_img.png";
+import boy from"../../../public/images/newsletter/newsletter_img.png";
 
  const NewsLetter = () =>{
   return (

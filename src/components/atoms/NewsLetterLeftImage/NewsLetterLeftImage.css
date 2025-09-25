@@ -1,0 +1,29 @@
+.newsletter_img_wrap{
+    position: relative;
+    text-align: center;
+}
+.newsletter__img-wrap img{
+    max-width: 100%;   
+    transition: all 0.3s ease-out 0s;
+}
+
+.newsletter_img2{
+    right: 16%;
+    top: 18%;
+    z-index: -1;
+}
+
+.newsletter_img2,.newsletter_img3{
+    position: absolute;  
+}
+
+.newsletter_img3{
+    left: 5%;
+    bottom: 0;
+    z-index: -1;
+    transition-timing-function: ease;
+    transition-delay: 0;
+    opacity: 1;
+    transform: translateZ(0);
+    transition-delay: .4s;
+}
