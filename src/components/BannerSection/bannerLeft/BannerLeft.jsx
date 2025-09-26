@@ -12,7 +12,7 @@ function bannerleft() {
               x="0px"
               y="0px"
               preserveAspectRatio="none"
-              viewBox="0 0 209 59"
+              // viewBox="0 0 209 59"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -32,8 +32,11 @@ function bannerleft() {
           Every teaching and learning journey is unique Following We'll help
           guide your way.
         </p>
-        <div className="banner_btn-wrap">
-          <a href="#">
+        <div className="banner_btn-wrap d-flex justify-content-center align-items-center">
+          <a
+            className="d-flex justify-content-center align-items-center gap-3"
+            href="#"
+          >
             Start Free Trial
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +45,7 @@ function bannerleft() {
               viewBox="0 0 16 14"
               fill="none"
               data-inject-url="https://html.themegenix.com/skillgro/assets/img/icons/right_arrow.svg"
-              class="injectable"
+              class="injectable  text-light "
             >
               <path
                 d="M1 7L15 7M15 7L9 1M15 7L9 13"

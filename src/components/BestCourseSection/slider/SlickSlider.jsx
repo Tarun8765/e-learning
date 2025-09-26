@@ -63,7 +63,7 @@ function SlickSlider() {
       <Slider {...settings}>
         {slideData?.slideData?.map((item, index) => {
           return (
-            <div className=" d-flex mx-2 mb-3    " key={index}>
+            <div className=" d-flex mx-2 mb-3" key={index}>
               <Course_item data={item} />
             </div>
           );

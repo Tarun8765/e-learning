@@ -1,6 +1,6 @@
 .banner_area {
   position: relative;
-  background: url("/public/images/banner_bg.png");
+  background: url("/public/images/banner_image/banner_bg.png");
   display: flex;
   padding: 60px 0 0;
   position: relative;

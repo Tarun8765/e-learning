@@ -1,0 +1,148 @@
+.py-120{
+    padding-top:120px;
+    padding-bottom:120px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-20{
+    margin-bottom:20px;
+}
+.bg_parpule{
+    background: #5751E1;
+    color: #fff;
+}
+.text-white{
+    color: #fff;
+}
+.py_26{
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.h4{
+    font-size: 20px;
+}
+.mb_10{
+    margin-bottom: 10px;
+}
+.mb_20{
+    margin-bottom:20px;
+}
+
+
+/*=============================
+    00. Keyframe Animation
+===============================*/
+@-webkit-keyframes hoverShine {
+    100% {
+        left: 125%;
+    }
+}
+@keyframes hoverShine {
+    100% {
+        left: 125%;
+    }
+}
+
+.rotateme {
+  animation-name: rotateme;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes rotateme {
+  from {
+     transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.alltuchtopdown {
+	animation: alltuchtopdown 1.5s ease-in-out 0s infinite alternate;
+	animation-duration: 3s;
+}
+@keyframes alltuchtopdown {
+    0% {
+        transform: rotateX(0deg) translateY(0px);
+    }
+    50% {
+        transform: rotateX(0deg) translateY(-20px);
+    }
+    100% {
+        transform: rotateX(0deg) translateY(0px);
+    }
+}
+
+@-webkit-keyframes alltuchtopdown {
+    0% {
+        transform: rotateX(0deg) translateY(0px);
+    }
+    50% {
+        transform: rotateX(0deg) translateY(-20px);
+    }
+    100% {
+        transform: rotateX(0deg) translateY(0px);
+    }
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+	opacity: 1;
+	}
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+	opacity: 0;
+	}
+}
+@-webkit-keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+	opacity: 1;
+	}
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+	opacity: 0;
+	}
+}
+
+@keyframes animation__shape {
+    0% {
+        stroke-dashoffset: 12
+    }
+    100% {
+        stroke-dashoffset: 0
+    }
+}
+
+@keyframes animation__shape-two {
+    0% {
+        stroke-dashoffset: 40
+    }
+    100% {
+        stroke-dashoffset: 0
+    }
+}
+
+
+@keyframes fadeInUp2 {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInUp2 {
+    animation-name: fadeInUp2;
+    animation-delay: .5s;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+}

@@ -17,26 +17,6 @@ function BanneRight() {
         className="shape small-shape tg-motion-effects3"
       />
       {/* <div className="banner_author">author</div> */}
-      <div className="banner__author">
-        <div className="banner__author-item">
-          <div className="image">
-            <img src="assets/img/banner/banner_author01.png" alt="img"></img>
-          </div>
-          <h6 className="name">Robert Fox</h6>
-        </div>
-        <div className="banner__author-item">
-          <div className="image">
-            <img src="assets/img/banner/banner_author02.png" alt="img"></img>
-          </div>
-          <h6 className="name">Michel Jones</h6>
-        </div>
-        <img
-          src="assets/img/banner/banner_shape02.svg"
-          alt="shape"
-          className="arrow-shape tg-motion-effects3"
-          style="transform: matrix(1, 0, 0, 1, -1.01657, 2.09783);"
-        ></img>
-      </div>
     </div>
   );
 }

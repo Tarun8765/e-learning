@@ -10,7 +10,9 @@ function BestCourseSection() {
       <div className=" container ">
         <div className="row d-flex justify-content-center">
           <div className="col-lg-12">
-            <CourseHead />
+            <div className=" d-flex justify-content-center align-items-center">
+              <CourseHead />
+            </div>
             <CourseNav />
             <SlickSlider />
           </div>

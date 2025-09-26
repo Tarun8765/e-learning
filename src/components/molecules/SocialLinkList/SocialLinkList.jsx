@@ -3,7 +3,7 @@ import navData from "../../data/navItems.json";
 
 function SocialLinkList() {
   return (
-    <ul className="top_social_links list-inline list-wrap">
+    <ul className="top_social_links list-inline list-wrap d-flex">
       {navData?.navSocialLinks?.map((items, index) => {
         return (
           <li key={index}>

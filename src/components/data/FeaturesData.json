@@ -1,0 +1,29 @@
+{
+    "featuresHeading":{
+        "title":"How We Start Journey",
+        "heading":"Start your Learning Journey Today!",
+        "content":"Groove’s intuitive shared inbox makesteam members together organize, prioritize and.In this episode."
+    },
+    "featuresList":[
+        {
+            "title":"Learn with Experts",
+            "content":"Curate anding area share Pluralsight content to reach your",
+            "icon":"/public/images/features/features_icon01.svg"
+        },
+        {
+            "title":"Learn Anything",
+            "content":"Curate anding area share Pluralsight content to reach your",
+            "icon":"/public/images/features/features_icon02.svg"
+        },
+        {
+            "title":"Get Online Certificate",
+            "content":"Curate anding area share Pluralsight content to reach your",
+            "icon":"/public/images/features/features_icon03.svg"
+        },
+        {
+            "title":"E-mail Marketing",
+            "content":"Curate anding area share Pluralsight content to reach your",
+            "icon":"/public/images/features/features_icon04.svg"
+        }
+    ]
+}

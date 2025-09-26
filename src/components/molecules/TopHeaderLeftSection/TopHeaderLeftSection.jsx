@@ -1,6 +1,5 @@
 import maplogo from "/images/map_marker.svg";
 import messagelogo from "/images/envelope.svg";
-import { Link } from "react-router-dom";
 
 function TopHeaderLeftSection() {
   return (

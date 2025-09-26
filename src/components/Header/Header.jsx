@@ -1,29 +1,22 @@
 import navData from "../data/navItems.json";
-
 import { Link } from "react-router-dom";
 import mainLogo from "/images/logo.svg";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import TopHeaderLeftSection from "../molecules/TopHeaderLeftSection/TopHeaderLeftSection";
-import TopHeaderRightSection from "../molecules/TopHeaderRightSection/TopHeaderRightSection";
+import TopHeader from "./topHeader/TopHeader";
+import "../../components/Header/Header.css";
+import { FaSearch } from "react-icons/fa";
 function Header() {
   return (
-    <header className="bg-light">
-      <div className="header-top d-none d-lg-flex justify-content-between">
-        <div className="container-fluid py-1  custome-container">
-          <div className="row">
-            <TopHeaderLeftSection />
-            <TopHeaderRightSection />
-          </div>
-        </div>
-      </div>
-      <div id="sticky-header" className="header_area d-flex align-items-center">
+    <header className="border-bottom">
+      <TopHeader />
+      <div
+        id="sticky-header"
+        className="tg-header_area d-flex align-items-center"
+      >
         <div className="container custom-container d-flex ">
-          <div className="row">
-            <div className="col-12">
-              <div className="tgmenu_wrap">
-                <nav className="tgmenu_nav d-flex">
+          <div className="header_row row d-flex flex-wrap mt-0 ">
+            <div className="col-12 w-100 ">
+              <div className="tgmenu_wrap d-block">
+                <nav className="tgmenu_nav d-flex justify-content-center align-items-center">
                   <div className="logo">
                     <img
                       className="image-fluid"
@@ -31,7 +24,7 @@ function Header() {
                       alt="logo"
                     ></img>
                   </div>
-                  <div className="tgmenu-navbar-wrap tgmenu-main-menu d-none d-xl-flex flex-grow-1 ">
+                  <div className="tgmenu-navbar-wrap tgmenu-main-menu d-none d-xl-flex ">
                     <ul className="navigation list-unstyled d-flex align-items-center flex-nowrap">
                       {navData?.navLink?.map((items, index) => {
                         return (
@@ -47,10 +40,10 @@ function Header() {
                       })}
                     </ul>
                   </div>
-                  <div className="tgmenu_search bg-succes d-flex">
+                  <div className="tgmenu_search d-none d-md-block  border p-2 mt-0 d-flex">
                     <form
                       action="#"
-                      className="tnmenu__search-form mt-0 d-flex border-1 border-circle p-2 "
+                      className="tnmenu__search-form mt-0 d-flex border-1 border-circle  "
                     >
                       <div className="select-gap d-flex justify-content-center align-items-center">
                         {/* <SvgTag className="mx-0" /> */}
@@ -72,7 +65,7 @@ function Header() {
                           name="choise"
                           id="choise"
                         >
-                          <option value={"Categories"}>Categories</option>
+                          <option value={"Categories"}> Categories </option>
                           <option value={"Businees"}>Businees</option>
                           <option value={"AI-ML"}>AI-ML</option>
                           <option value={"Art-and-Desing"}>
@@ -86,7 +79,7 @@ function Header() {
                           id="search-input"
                           className="search-input position-relative"
                           type="text"
-                          placeholder="Search For Course...."
+                          placeholder="Search For Course . . ."
                           style={{
                             border: "none",
                             outline: "none",
@@ -94,16 +87,18 @@ function Header() {
                         />
 
                         <button
-                          className=" search-btn border rounded-circle text-white p-1"
+                          className="search-btn border rounded-circle text-white p-1"
                           type="submit"
                         >
-                          <span>btn</span>
+                          <span className="d-flex align-items-center justify-content-center ">
+                            <FaSearch />
+                          </span>
                         </button>
                       </div>
                     </form>
                   </div>
                   <div className="tgmenu_action">
-                    <ul className="list-wrap list-unstyled d-flex ">
+                    <ul className="list-wrap list-unstyled d-flex align-items-center">
                       <li
                         className="wishlist-icon border-2
                       p-3 mx-2 rounded-circle"

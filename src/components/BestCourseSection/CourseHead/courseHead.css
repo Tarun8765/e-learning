@@ -21,8 +21,11 @@
 
 .section_title {
   margin-bottom: 40px;
+  max-width: fit-content;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section_title .desc {

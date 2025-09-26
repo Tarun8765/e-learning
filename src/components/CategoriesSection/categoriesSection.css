@@ -1,0 +1,9 @@
+.categories-slider {
+  height: 350px;
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 500px;
+}
