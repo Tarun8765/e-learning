@@ -2,7 +2,6 @@ import navData from "../data/navItems.json";
 import SvgTag from "../atoms/SvgTag";
 import { Link } from "react-router-dom";
 import mainLogo from "../../../public/images/logo.svg";
-import search from "../../../public/images/search.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import TopHeaderLeftSection from "../molecules/TopHeaderLeftSection/TopHeaderLeftSection";
