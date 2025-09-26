@@ -1,5 +1,6 @@
 import BannerRight from "../BannerSection/bannerRight/BanneRight";
 import Bannerleft from "../BannerSection/bannerLeft/BannerLeft";
+import "../BannerSection/BannerSection.css";
 function BannerSection() {
   return (
     <section className="banner_area">
@@ -11,7 +12,7 @@ function BannerSection() {
         </div>
       </div>
       <img
-        src="../../../public/images/courseSlider/banner_shape01.svg"
+        src="/images/courseSlider/banner_shape01.svg"
         alt="shape"
         className="line-shape aos-animate"
       />

@@ -6,7 +6,10 @@
   position: relative;
   overflow: hidden;
 }
-
+img .img {
+  max-width: 100%;
+  transition: 0.3s ease-in-out;
+}
 .banner_area .line-shape {
   position: absolute;
   top: 0;

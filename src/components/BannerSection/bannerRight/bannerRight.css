@@ -1,0 +1,28 @@
+.main_img {
+  max-width: 100%;
+}
+.banner-right {
+  display: block;
+  padding-right: 118px;
+  z-index: 1;
+  text-align: right;
+}
+
+.banner-imgages .shape .bg-dots {
+  max-width: 495px;
+  right: 30px;
+  bottom: -33;
+  z-index: -2;
+}
+.banner-imgages .shape {
+  position: absolute;
+}
+
+@keyframes rotateme {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
