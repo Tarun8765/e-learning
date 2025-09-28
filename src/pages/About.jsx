@@ -7,13 +7,13 @@ import NewSkillsSection from "../components/templates/NewSkillsSection/NewSkills
 
 function About() {
   return (
-  <>
-    <CourseSlider />
-    <NewSkillsSection />
-    <NewsLetterSection />
-    <FeaturesSection />
-    <TestimonialSection/>
-  </>
+    <>
+      <NewSkillsSection />
+      <NewsLetterSection />
+      <FeaturesSection />
+      <CourseSlider />
+      <TestimonialSection />
+    </>
   );
 }
 

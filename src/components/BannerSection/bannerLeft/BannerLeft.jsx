@@ -5,14 +5,20 @@ function bannerleft() {
     <div className=" banner-left col-xl-5 col-lg-6">
       <div className="banner_content">
         <h3 className="title tg-svg aos-init aos-animate">
-          Never
-          <span className="position-relative">
-            <span className="svg-icon"></span>
+          Never Stop
+          <span className="position-relative  text-light " style={{}}>
+            <span className="svg-icon " id="banner-svg"></span>
             <svg
+              style={{
+                width: "191.275px",
+                height: "48.8px",
+                color: "#ffc224",
+                position: "absolute",
+              }}
               x="0px"
               y="0px"
               preserveAspectRatio="none"
-              // viewBox="0 0 209 59"
+              viewBox="0 0 209 59"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -25,7 +31,7 @@ function bannerleft() {
           </span>
           <br />
           life
-          <strong>Never Stop</strong>
+          <strong> Never Stop</strong>
           Teaching
         </h3>
         <p className="aos-init ">

@@ -6,10 +6,10 @@ import Slider from "react-slick";
 
 function CategoriesSection() {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 700,
-    slidesToShow: 4,
+    slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -62,18 +62,75 @@ function CategoriesSection() {
     <section className=" categories-area py-120">
       <div className="container">
         <div className="row d-flex justify-content-center">
-          <CourseHead></CourseHead>
+          <div className="col-xl-5 col-lg-7 d-flex justify-content-center">
+            <CourseHead
+              title={"Top Category We Have"}
+              subTitle={"Trending Categories"}
+              desciption={
+                "when known printer took a galley of type scrambl edmake"
+              }
+            />
+          </div>
         </div>
         <div className="row d-flex">
           <div className="col-12">
-            <div className="categories-slider ">
-              <Slider {...settings}>
-                <div className=" d-flex mx-2 mb-3  bg-secondary">1</div>
-                <div className=" d-flex mx-2 mb-3 bg-secondary">1</div>
-                <div className=" d-flex mx-2 mb-3 bg-secondary">1</div>
-                <div className=" d-flex mx-2 mb-3 bg-secondary">1</div>
-                <div className=" d-flex mx-2 mb-3 bg-secondary">1</div>
-              </Slider>
+            <div className="categories_wrap">
+              <div className="categories-slider ">
+                <Slider {...settings}>
+                  <div className="swiper-wrapper my-2">
+                    <div
+                      className="swiper-slides  d-flex justify-content-center align-items-center"
+                      style={{ width: "153.333" }}
+                    >
+                      <div className="categories_item text-align-center ">
+                        <a className="text-decoration-none" href="#">
+                          <div className="icon">
+                            <i className="flaticon-graphic-design"> </i> l
+                          </div>
+                          <span className="name">Graphic Design</span>
+                          <span className="courses">(22)</span>
+                        </a>
+                      </div>
+                      <div className="categories_item text-align-center">
+                        <a className="text-decoration-none" href="#">
+                          <div className="icon">
+                            <i className="flaticon-graphic-design"> </i> l
+                          </div>
+                          <span className="name">Graphic Design</span>
+                          <span className="courses">(22)</span>
+                        </a>
+                      </div>
+                      <div className="categories_item text-align-center">
+                        <a className="text-decoration-none" href="#">
+                          <div className="icon">
+                            <i className="flaticon-graphic-design"> </i> l
+                          </div>
+                          <span className="name">Graphic Design</span>
+                          <span className="courses">(22)</span>
+                        </a>
+                      </div>
+                      <div className="categories_item text-align-center">
+                        <a className="text-decoration-none" href="#">
+                          <div className="icon">
+                            <i className="flaticon-graphic-design"> </i> l
+                          </div>
+                          <span className="name">Graphic Design</span>
+                          <span className="courses">(22)</span>
+                        </a>
+                      </div>
+                      <div className="categories_item text-align-center">
+                        <a className="text-decoration-none" href="#">
+                          <div className="icon">
+                            <i className="flaticon-graphic-design"> </i> l
+                          </div>
+                          <span className="name">Graphic Design</span>
+                          <span className="courses">(22)</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </Slider>
+              </div>
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import img from "../../../../public/images/courseSlider/course_thumb01.jpg";
+import img from "/images/courseSlider/course_thumb01.jpg";
 import "../Course_item/course_item.css";
 
 function Course_item({ data }) {
@@ -26,7 +26,7 @@ function Course_item({ data }) {
           <p className="author text-secondary ">
             By
             <a
-              className=" author_name text-decoration-none text-dark px-1"
+              className="author_name text-decoration-none text-dark px-1"
               href="#"
             >
               {data?.author}

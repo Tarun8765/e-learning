@@ -12,11 +12,11 @@ function Header() {
         id="sticky-header"
         className="tg-header_area d-flex align-items-center"
       >
-        <div className="container custom-container d-flex ">
+        <div className="container custom-container d-flex justify-content-center ">
           <div className="header_row row d-flex flex-wrap mt-0 ">
             <div className="col-12 w-100 ">
               <div className="tgmenu_wrap d-block">
-                <nav className="tgmenu_nav d-flex justify-content-center align-items-center">
+                <nav className="tgmenu_nav d-flex align-items-center justify-content-center">
                   <div className="logo">
                     <img
                       className="image-fluid"
@@ -25,7 +25,7 @@ function Header() {
                     ></img>
                   </div>
                   <div className="tgmenu-navbar-wrap tgmenu-main-menu d-none d-xl-flex ">
-                    <ul className="navigation list-unstyled d-flex align-items-center flex-nowrap">
+                    <ul className="navigation list-unstyled d-flex align-items-center flex-nowrap mb-0">
                       {navData?.navLink?.map((items, index) => {
                         return (
                           <li className="menu_items " key={index}>
@@ -48,7 +48,11 @@ function Header() {
                       <div className="select-gap d-flex justify-content-center align-items-center">
                         {/* <SvgTag className="mx-0" /> */}
                         <svg
-                          style={{ marginLeft: "17px ", color: "#5751e1" }}
+                          style={{
+                            marginLeft: "17px ",
+                            marginRight: "4px",
+                            color: "#5751e1",
+                          }}
                           width="18"
                           height="18"
                           viewBox="0 0 18 18"

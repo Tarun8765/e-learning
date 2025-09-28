@@ -11,7 +11,13 @@ function BestCourseSection() {
         <div className="row d-flex justify-content-center">
           <div className="col-lg-12">
             <div className=" d-flex justify-content-center align-items-center">
-              <CourseHead />
+              <CourseHead
+                title={"Explore Our World's Best Courses"}
+                subTitle={"To Class Courses"}
+                desciption={
+                  "When known printer took a galley of type scrambl edmake"
+                }
+              />
             </div>
             <CourseNav />
             <SlickSlider />

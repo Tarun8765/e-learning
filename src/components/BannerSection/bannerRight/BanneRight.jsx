@@ -6,9 +6,19 @@ import bannerShape2 from "/images/banner_image/banner_shape02.png";
 function BanneRight() {
   return (
     <div className=" banner-imgages banner-right position-relative col-lg-6">
-      <img src={mainImage} alt="img" className="main_img w-100"></img>
-      <div className="shape">
-        <img src={arrowImage} alt="" className="tg-motion-effects1" />
+      <img
+        src={mainImage}
+        alt="img"
+        className="main_img  "
+        width={"419px"}
+        height={"460px"}
+      ></img>
+      <div className="shape ">
+        <img
+          src={arrowImage}
+          alt="arrow image"
+          className="tg-motion-effects1 positon-absolute"
+        />
       </div>
       <img src={dotShape} alt="shape" className="shape bg-dots rotateme" />
       <img
