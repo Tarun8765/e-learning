@@ -6,7 +6,10 @@ function bannerleft() {
       <div className="banner_content">
         <h3 className="title tg-svg aos-init aos-animate">
           Never Stop
-          <span className="position-relative  text-light " style={{}}>
+          <span
+            className="position-relative  text-light "
+            style={{ padding: "2px 14px 0 20px", fontWeight: "600" }}
+          >
             <span className="svg-icon " id="banner-svg"></span>
             <svg
               style={{
@@ -51,21 +54,14 @@ function bannerleft() {
               viewBox="0 0 16 14"
               fill="none"
               data-inject-url="https://html.themegenix.com/skillgro/assets/img/icons/right_arrow.svg"
-              class="injectable  text-light "
+              className="injectable  text-light "
             >
               <path
                 d="M1 7L15 7M15 7L9 1M15 7L9 13"
                 stroke="currentcolor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M1 7L15 7M15 7L9 1M15 7L9 13"
-                stroke="currentcolor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
             </svg>
           </a>

@@ -1,0 +1,21 @@
+.instuctor_social .list-wrap {
+  gap: 8px;
+}
+
+.list-wrap li {
+  list-style: none;
+}
+
+.socialLinks {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  box-shadow: 2px 2px #7f7e97;
+  color: #7f7e97;
+}
+
+.socialLinks:hover {
+  box-shadow: 0px 0px #7f7e97;
+  opacity: 0.9;
+  transition: 0.3s;
+}

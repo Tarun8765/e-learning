@@ -3,15 +3,54 @@ import CourseHead from "../BestCourseSection/CourseHead/CourseHead";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
+import categoriesData from "../data/categoriesSlider.json";
 function CategoriesSection() {
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <span
+        className={className}
+        style={{
+          ...style,
+
+          display: "block",
+          background: "red",
+          borderRadius: "20px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <span
+        className={className}
+        style={{
+          ...style,
+          display: "flex",
+          marginInlineEnd: "15px",
+          justifyContent: "center",
+          alignItems: "center",
+          background: "green",
+          height: "30px",
+          width: "30px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 700,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     initialSlide: 0,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1400,
@@ -77,56 +116,27 @@ function CategoriesSection() {
             <div className="categories_wrap">
               <div className="categories-slider ">
                 <Slider {...settings}>
-                  <div className="swiper-wrapper my-2">
+                  <div className="swiper-wrapper">
                     <div
-                      className="swiper-slides  d-flex justify-content-center align-items-center"
+                      className="swiper-slides  d-flex justify-content-center align-items-center "
                       style={{ width: "153.333" }}
                     >
-                      <div className="categories_item text-align-center ">
-                        <a className="text-decoration-none" href="#">
-                          <div className="icon">
-                            <i className="flaticon-graphic-design"> </i> l
+                      {categoriesData?.categoriesItens?.map((item, index) => {
+                        return (
+                          <div
+                            key={index}
+                            className="categories_item text-align-center  "
+                          >
+                            <a className="text-decoration-none" href="#">
+                              <i className="icon">
+                                <img src={item.iconUrl} alt="icon" />
+                              </i>
+                              <span className="name">{item.name}</span>
+                              <span className="courses">({item.courses})</span>
+                            </a>
                           </div>
-                          <span className="name">Graphic Design</span>
-                          <span className="courses">(22)</span>
-                        </a>
-                      </div>
-                      <div className="categories_item text-align-center">
-                        <a className="text-decoration-none" href="#">
-                          <div className="icon">
-                            <i className="flaticon-graphic-design"> </i> l
-                          </div>
-                          <span className="name">Graphic Design</span>
-                          <span className="courses">(22)</span>
-                        </a>
-                      </div>
-                      <div className="categories_item text-align-center">
-                        <a className="text-decoration-none" href="#">
-                          <div className="icon">
-                            <i className="flaticon-graphic-design"> </i> l
-                          </div>
-                          <span className="name">Graphic Design</span>
-                          <span className="courses">(22)</span>
-                        </a>
-                      </div>
-                      <div className="categories_item text-align-center">
-                        <a className="text-decoration-none" href="#">
-                          <div className="icon">
-                            <i className="flaticon-graphic-design"> </i> l
-                          </div>
-                          <span className="name">Graphic Design</span>
-                          <span className="courses">(22)</span>
-                        </a>
-                      </div>
-                      <div className="categories_item text-align-center">
-                        <a className="text-decoration-none" href="#">
-                          <div className="icon">
-                            <i className="flaticon-graphic-design"> </i> l
-                          </div>
-                          <span className="name">Graphic Design</span>
-                          <span className="courses">(22)</span>
-                        </a>
-                      </div>
+                        );
+                      })}
                     </div>
                   </div>
                 </Slider>

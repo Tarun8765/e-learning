@@ -3,8 +3,46 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Course_item from "../Course_item/Course_item";
 import slideData from "../../data/slideData.json";
+import "../slider/slider.css";
 
 function SlickSlider() {
+  // function SampleNextArrow(props) {
+  //   const { className, style, onClick } = props;
+  //   return (
+  //     <span
+  //       className={className}
+  //       style={{
+  //         ...style,
+
+  //         display: "block",
+  //         background: "red",
+  //         borderRadius: "20px",
+  //       }}
+  //       onClick={onClick}
+  //     />
+  //   );
+  // }
+
+  // function SamplePrevArrow(props) {
+  //   const { className, style, onClick } = props;
+  //   return (
+  //     <span
+  //       className={className}
+  //       style={{
+  //         ...style,
+  //         display: "flex",
+  //         marginInlineEnd: "15px",
+  //         justifyContent: "center",
+  //         alignItems: "center",
+  //         background: "green",
+  //         height: "30px",
+  //         width: "30px",
+  //       }}
+  //       onClick={onClick}
+  //     />
+  //   );
+  // }
+
   const settings = {
     dots: false,
     infinite: true,
@@ -12,6 +50,8 @@ function SlickSlider() {
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
+    // nextArrow: <SampleNextArrow />,
+    // prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1400,

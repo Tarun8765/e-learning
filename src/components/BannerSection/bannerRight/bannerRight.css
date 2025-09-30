@@ -13,6 +13,11 @@
   left: 0;
   top: 0;
 }
+.banner-imgages .shape {
+  position: absolute;
+  z-index: -1;
+}
+
 .banner-imgages .shape.big-shape {
   max-width: 618px;
   bottom: -85px;
@@ -61,8 +66,51 @@ img {
 .tg-motion-effects1 {
   transform: matrix(1, 0, 0, 1, 3.34824, 12.2826);
 }
-.banner__images .shape.big-shape {
+.banner_images .shape.big-shape {
   max-width: 618px;
   bottom: -85px;
   right: -22px;
+}
+
+.banner_author {
+  position: absolute;
+  top: 30px;
+  left: 23px;
+  width: 175px;
+  padding: 11px 30px 11px 14px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 9px 10px 0px 0px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.banner_author-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.banner_author-item .image {
+  flex: 0 0 auto;
+}
+.banner_author-item .image img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.banner_author-item .name {
+  flex-grow: 1;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #161439;
+  font-weight: 700;
+}
+.banner_author .arrow-shape {
+  position: absolute;
+  left: 164px;
+  z-index: -1;
+  top: 9px;
 }

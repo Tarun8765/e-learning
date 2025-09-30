@@ -4,6 +4,7 @@ import mainLogo from "/images/logo.svg";
 import TopHeader from "./topHeader/TopHeader";
 import "../../components/Header/Header.css";
 import { FaSearch } from "react-icons/fa";
+
 function Header() {
   return (
     <header className="border-bottom">
@@ -40,13 +41,12 @@ function Header() {
                       })}
                     </ul>
                   </div>
-                  <div className="tgmenu_search d-none d-md-block  border p-2 mt-0 d-flex">
+                  <div className="tgmenu_search d-none d-md-block p-1  border mt-0 d-flex">
                     <form
                       action="#"
                       className="tnmenu__search-form mt-0 d-flex border-1 border-circle  "
                     >
                       <div className="select-gap d-flex justify-content-center align-items-center">
-                        {/* <SvgTag className="mx-0" /> */}
                         <svg
                           style={{
                             marginLeft: "17px ",
@@ -65,7 +65,7 @@ function Header() {
                           ></path>
                         </svg>
                         <select
-                          className="border-0 form_select"
+                          className="border-0 form_select "
                           name="choise"
                           id="choise"
                         >
@@ -78,10 +78,10 @@ function Header() {
                           <option value={"Finance"}>Finance</option>
                         </select>
                       </div>
-                      <div className="input-gap d-flex">
+                      <div className="input-gap d-none d-md-flex ">
                         <input
                           id="search-input"
-                          className="search-input position-relative"
+                          className="search-input position-relative px-2"
                           type="text"
                           placeholder="Search For Course . . ."
                           style={{
@@ -104,40 +104,43 @@ function Header() {
                   <div className="tgmenu_action">
                     <ul className="list-wrap list-unstyled d-flex align-items-center">
                       <li
-                        className="wishlist-icon border-2
-                      p-3 mx-2 rounded-circle"
-                      >
-                        <a href="#" className="d-flex">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="32"
-                            height="32"
-                            viewBox="0 0 22 22"
-                            fill="none"
-                            data-inject-url="https://html.themegenix.com/skillgro/assets/img/icons/heart.svg"
-                            className="injectable text-dark "
-                          >
-                            <path
-                              d="M10.7554 4.61133L9.79142 3.62048C7.52872 1.2946 3.37978 2.09723 1.88208 5.02139C1.17893 6.39675 1.02029 8.38249 2.30423 10.9168C3.54111 13.3569 6.11437 16.2797 10.7554 19.4634C15.3964 16.2797 17.9683 13.3569 19.2065 10.9168C20.4905 8.38115 20.3332 6.39675 19.6287 5.02139C18.131 2.09723 13.982 1.29326 11.7193 3.61914L10.7554 4.61133ZM10.7554 21.0834C-9.85892 7.46155 4.40828 -3.17028 10.5188 2.45351C10.5994 2.52745 10.6787 2.60409 10.7554 2.68341C10.8312 2.60416 10.9102 2.52791 10.992 2.45485C17.1011 -3.17297 31.3697 7.4602 10.7554 21.0834Z"
-                              fill="currentcolor"
-                            ></path>
-                          </svg>
-                          <span className="wishlist-count bg-warning border rounded-circle p-1"></span>
-                        </a>
-                      </li>
-                      <li
-                        className="mini-chart-icon border 
-                      p-3 mx-2 rounded-circle"
+                        className="wishlist-icon 
+                      p-3 mx-2 position-relative"
                       >
                         <a href="#" className="d-flex">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="20"
                             height="18"
+                            viewBox="0 0 22 22"
+                            fill="none"
+                            data-inject-url="https://html.themegenix.com/skillgro/assets/img/icons/heart.svg"
+                            className="injectable"
+                          >
+                            <path
+                              d="M10.7554 4.61133L9.79142 3.62048C7.52872 1.2946 3.37978 2.09723 1.88208 5.02139C1.17893 6.39675 1.02029 8.38249 2.30423 10.9168C3.54111 13.3569 6.11437 16.2797 10.7554 19.4634C15.3964 16.2797 17.9683 13.3569 19.2065 10.9168C20.4905 8.38115 20.3332 6.39675 19.6287 5.02139C18.131 2.09723 13.982 1.29326 11.7193 3.61914L10.7554 4.61133ZM10.7554 21.0834C-9.85892 7.46155 4.40828 -3.17028 10.5188 2.45351C10.5994 2.52745 10.6787 2.60409 10.7554 2.68341C10.8312 2.60416 10.9102 2.52791 10.992 2.45485C17.1011 -3.17297 31.3697 7.4602 10.7554 21.0834Z"
+                              fill="currentcolor"
+                            ></path>
+                          </svg>
+
+                          <span id="wish_count" className="wishlist-count">
+                            0
+                          </span>
+                        </a>
+                      </li>
+                      <li
+                        className="mini-chart-icon 
+                      p-3 mx-2 position-relative "
+                      >
+                        <a href="#" className="d-flex">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="19"
                             viewBox="0 0 20 18"
                             fill="none"
                             data-inject-url="https://html.themegenix.com/skillgro/assets/img/icons/cart.svg"
-                            className="injectable text-dark"
+                            className="injectable"
                           >
                             <path
                               d="M19.4853 6.2598C19.2241 5.93213 18.8323 5.74415 18.4102 5.74415H14.6011L12.5355 1.01447C12.4075 0.721229 12.0659 0.587219 11.7726 0.715357C11.4793 0.843418 11.3454 1.18503 11.4735 1.47831L13.3365 5.74419H6.44249L8.30546 1.47831C8.43352 1.18503 8.29963 0.843457 8.00634 0.715357C7.7131 0.587219 7.37148 0.721152 7.24342 1.01447L5.17787 5.74419H1.36873C0.946649 5.74419 0.554817 5.93213 0.293635 6.25984C0.0372424 6.58155 -0.0573642 6.99513 0.0340748 7.39465L2.06825 16.2797C2.2103 16.9001 2.75913 17.3334 3.40291 17.3334H16.376C17.0198 17.3334 17.5686 16.9001 17.7107 16.2797L19.7449 7.39461C19.8363 6.99509 19.7417 6.58151 19.4853 6.2598ZM16.376 16.1745H3.40291C3.30452 16.1745 3.21833 16.1099 3.19797 16.021L1.16379 7.13602C1.14784 7.06629 1.17461 7.01383 1.19995 6.98211C1.22344 6.9526 1.27663 6.90311 1.36873 6.90311H4.67177L4.51999 7.25068C4.39193 7.54396 4.52583 7.88553 4.81911 8.01363C4.8946 8.04662 4.97325 8.06223 5.0507 8.06223C5.27406 8.06223 5.48692 7.93231 5.58203 7.71455L5.93639 6.90319H13.8426L14.197 7.71455C14.2921 7.93235 14.505 8.06223 14.7283 8.06223C14.8057 8.06223 14.8844 8.04662 14.9599 8.01363C15.2532 7.88557 15.3871 7.54396 15.259 7.25068L15.1073 6.90311H18.4103C18.5024 6.90311 18.5556 6.9526 18.5791 6.98211C18.6044 7.01387 18.6312 7.06633 18.6152 7.13598L16.5811 16.0211C16.5607 16.1099 16.4744 16.1745 16.376 16.1745Z"
@@ -156,13 +159,15 @@ function Header() {
                               fill="currentcolor"
                             ></path>
                           </svg>
-                          <span className="wishlist-count"></span>
+                          <span id="card_count" className="wishlist-count">
+                            0
+                          </span>
                         </a>
                       </li>
-                      <li className="header-btn login-btn text-dark ">
+                      <li className="header-btn login-btn  ">
                         <a
                           href="#"
-                          className="text-decoration-none d-flex text-dark mx-3 my-1 fw-bold"
+                          className="text-decoration-none d-flex mx-3 my-1 fw-bold "
                         >
                           Login
                         </a>
