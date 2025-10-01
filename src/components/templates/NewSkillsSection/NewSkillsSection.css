@@ -1,0 +1,28 @@
+.offer_features_cal:first-child .offer_features_item{
+    border: 1px solid #C9E4E9;
+   background: #F1FDFF;
+   box-shadow: 8px 8px 0px 0px #C9E4E9;
+}
+.offer_features_cal:last-child .offer_features_item {
+   border: 1px solid #EBE0C4;
+   background: #FFF7E2;
+   box-shadow: 8px 8px 0px 0px #E5DECB;
+}
+.offer_features_cal:nth-child(2) .offer_features_item {
+   border: 1px solid #C8C1ED;
+   background: #EDEAFF;
+   box-shadow: 8px 8px 0px 0px #D9D5F1;
+}
+
+.offer_features_cal:first-child  .features_icon{
+    background: #1BCBE3;
+}
+.offer_features_cal:last-child  .features_icon{
+    background: #FFC224;
+}
+.offer_features_cal:nth-child(2)  .features_icon{
+    background: #5751E1;
+}
+.offer_features_cal:hover .offer_features_item{
+    box-shadow: none;
+}

@@ -14,14 +14,14 @@ import boy from"../../../public/images/newsletter/newsletter_img.png";
                         <img src={boy} alt="img"></img>
                     </div>
                 </div>
-                <div class="col-lg-8">
-    <div class="row">
-        <div class="newsletter__content col-md-9">
-            <h2 class="title ">Want to stay <strong>informed</strong>"about"<strong> new courses</strong> &amp; study?</h2>
-            <div class="newsletter__form">
-                <form action="#" class="d-flex">
+                <div className="col-lg-8">
+    <div className="row">
+        <div className="newsletter__content col-md-9">
+            <h2 className="title ">Want to stay <strong>informed</strong>"about"<strong> new courses</strong> &amp; study?</h2>
+            <div className="newsletter__form">
+                <form action="#" className="d-flex">
                     <input placeholder="Type your email" type="email" />
-                    <button type="submit" class="btn">subscrib Now</button>
+                    <button type="submit" className="btn">subscrib Now</button>
                 </form>
             </div>
         </div>
@@ -29,14 +29,14 @@ import boy from"../../../public/images/newsletter/newsletter_img.png";
 </div>
                 <div className="col-lg-8">
                     <div className="newsletter__content d-flex">
-                        <h2 class="title ">
+                        <h2 className="title ">
                             Want to stay <storng>informed</storng> "about"
                             <strong>new courses </strong>" & study? "
                         </h2>
                         <div className="newsletter__form">
-                            <form action="#" class="d-flex">
+                            <form action="#" className="d-flex">
                                 <input type="email" placeholder="Type your email"></input>
-                                <button type="submit" class="btn">subscrib Now</button>
+                                <button type="submit" className="btn">subscrib Now</button>
                             </form>
                         </div>
                     </div>
