@@ -24,7 +24,6 @@ function SocialLinks() {
                       height: "30px",
                       borderRadius: "50px",
                       border: " 1px solid #7F7E97",
-                      // boxShadow: "2px 2px #7F7E97",
                     }}
                     url={item.url}
                   />

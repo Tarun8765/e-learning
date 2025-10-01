@@ -1,14 +1,28 @@
 import "../CourseHead/courseHead.css";
-function CourseHead({ subTitle, title, desciption }) {
+function CourseHead({
+  subTitle,
+  title,
+  desciption,
+  classSection,
+  classSubTitle,
+  classTitle,
+  classDescription,
+}) {
   return (
-    <div className="section_title text-center mb-40 ">
-      <div className="d-block sub-title">
+    <div
+      className={
+        classSection ? classSection : "section_title text-center mb-40 "
+      }
+    >
+      <div className={classSubTitle ? classSubTitle : "d-block sub-title"}>
         <span className="px-4">{subTitle}</span>
       </div>
 
-      <h2 className="title">{title}</h2>
+      <h2 className={classTitle ? classTitle : "title"}>{title}</h2>
 
-      <p className="desc">{desciption}</p>
+      <p className={classDescription ? classDescription : "desc"}>
+        {desciption}
+      </p>
     </div>
   );
 }
