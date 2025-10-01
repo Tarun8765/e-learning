@@ -25,7 +25,7 @@ export default function FeaturesSection() {
                                     src={item?.icon}
                                     alt={item?.title}
                                     heading={item?.title} 
-                                    comtent={item?.content} 
+                                    content={item?.content} 
                                     img_wraper='mb_20'
                                     item_wraper='text-center'
                                     item_title_class="text-white h4 mb_10"

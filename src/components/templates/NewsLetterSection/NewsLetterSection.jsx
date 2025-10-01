@@ -14,7 +14,7 @@ export default function NewsLetterSection() {
                 <div className="col-lg-4">
                     <NewsLetterLeftImage />
                 </div>
-                <div className="col-lg-8">
+                <div className="col-lg-6">
                     <NewsLetterContent />
                 </div>
             </div>

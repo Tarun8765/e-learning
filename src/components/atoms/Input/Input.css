@@ -1,0 +1,21 @@
+.form-grp input, .form-grp textarea {
+    width: 100%;
+    border: 1px solid #E1E4E7;
+    border-radius: 5px;
+    display: block;
+    background: var(--tg-common-color-white);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--tg-body-color);
+    padding: 11px 20px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.form-grp textarea {
+    min-height: 230px;
+    max-height: 230px;
+}
+ .form-grp input:focus, .form-grp textarea:focus {
+    border-color: #5751e1;
+}

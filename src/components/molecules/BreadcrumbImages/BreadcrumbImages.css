@@ -1,0 +1,29 @@
+.breadcrumb_shape-wrap img:first-child{
+    left: 69px;
+    top: 52px;
+}
+.breadcrumb_shape-wrap img {
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+    transform: translateZ(0);
+    transition-delay: .4s;
+    transition-duration: 1s;
+}
+.breadcrumb_shape-wrap img:nth-child(2){
+    right: 38%;
+    top: 21%;
+}
+
+.breadcrumb_shape-wrap img:nth-child(3){
+    right: 23%;
+    bottom: 13%;
+}
+.breadcrumb_shape-wrap img:nth-child(4){
+    right: 8%;
+    top: 8%;
+}
+.breadcrumb_shape-wrap img:nth-child(5){
+    right: 0;
+    top: 0;
+}
