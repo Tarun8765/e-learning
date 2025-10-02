@@ -43,5 +43,44 @@
       "itemName": "Contact",
       "route": "/contact"
     }
+  ],
+  "skillsImage": [
+    { "src": "../../../../public/images/instructor02.png" },
+    { "src": "../../../../public/images/instructor02.png" },
+    { "src": "../../../../public/images/instructor02.png" },
+    { "src": "../../../../public/images/instructor02.png" }
+  ],
+
+  "SocialLinks": [
+    { "url": "https://www.facebook.com/" },
+    { "url": "https://www.twitter.com/" },
+    { "url": "https://www.whatsapp.com/" },
+    { "url": "https://www.instagram.com/" }
+  ],
+  "skillIntroduce": [
+    {
+      "imgageSrc": "../../../../public/images/instructor01.png",
+      "title": "Mark Jukarberg",
+      "designation": "UX Design Lead",
+      "avg_rating": "4.6"
+    },
+    {
+      "imgageSrc": "../../../../public/images/instructor02.png",
+      "title": "Olivia Mia",
+      "designation": "Web Design",
+      "avg_rating": "4.5"
+    },
+    {
+      "imgageSrc": "../../../../public/images/instructor03.png",
+      "title": "William Hope",
+      "designation": "Digital Marketing",
+      "avg_rating": "4.5"
+    },
+    {
+      "imgageSrc": "../../../../public/images/instructor04.png",
+      "title": "Sophia Ava",
+      "designation": "Web Development",
+      "avg_rating": "4.9"
+    }
   ]
 }

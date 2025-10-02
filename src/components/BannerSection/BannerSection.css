@@ -1,0 +1,19 @@
+.banner_area {
+  position: relative;
+  background: url("/public/images/banner_image/banner_bg.png");
+  display: flex;
+  padding: 60px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+img .img {
+  max-width: 100%;
+  transition: 0.3s ease-in-out;
+}
+.banner_area .line-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}

@@ -9,25 +9,22 @@ import Breadcrumb from "../components/templates/Breadcrumb/Breadcrumb";
 function About() {
   const breadcrumbList = [
     {
-      href:'/',
-      text:'Home'
+      href: "/",
+      text: "Home",
     },
     {
-      text:'About Us'
-    }
-  ]
+      text: "About Us",
+    },
+  ];
   return (
-  <>
-    <Breadcrumb 
-      title='Who We Are'
-      linkList={breadcrumbList}
-    />
-    <CourseSlider />
-    <NewSkillsSection />
-    <NewsLetterSection />
-    <FeaturesSection />
-    <TestimonialSection/>
-  </>
+    <>
+      <Breadcrumb title="Who We Are" linkList={breadcrumbList} />
+      <NewSkillsSection />
+      <NewsLetterSection />
+      <FeaturesSection />
+      <CourseSlider />
+      <TestimonialSection />
+    </>
   );
 }
 

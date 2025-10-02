@@ -1,0 +1,70 @@
+.categories_item {
+  text-align: center;
+  margin-right: 19px;
+}
+.categories_item {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.categories_item a {
+  color: #5751e1;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.categories_item .icon {
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  border: 1px solid rgb(212, 210, 210);
+  align-items: center;
+  justify-content: center;
+  border-radius: 150px;
+  background: linear-gradient(180deg, #fff 0%, #f1f1fa 100%);
+  font-size: 55px;
+  color: #7f7e97;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  margin: 0 0 12px;
+}
+
+.categories_item .icon::before {
+  content: "";
+  position: absolute;
+  top: 26px;
+  right: 26px;
+  background-image: url(../../../public/images/cat_star.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 26px;
+  pointer-events: none;
+}
+.categories_item .name {
+  display: block;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #161439;
+  margin: 0 0 7px;
+}
+
+.categories_item .courses {
+  display: block;
+  line-height: 1.3;
+  color: #6d6c80;
+  font-family: sans-serif;
+}
+.categories_wrap {
+  background: #efefef;
+  border-radius: 500px;
+  position: relative;
+  padding: 52px 59px 45px;
+}
+
+.icon img {
+  width: 60px;
+}

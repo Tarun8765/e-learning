@@ -89,7 +89,7 @@ function Footer() {
                   <ul className="list-wrap footer__social list-unstyled d-flex my-3">
                     {FooterData?.foot_Links?.map((item, index) => {
                       return (
-                        <li key={index} style={{marginBottom:"10px"}}>
+                        <li key={index} style={{ marginBottom: "10px" }}>
                           {/* <Link className="footer_links  text-decoration-none"  to={item.href} >{item.content}</Link> */}
                           <SocialIcon
                             style={{ width: "30px", height: "30px" }}
@@ -103,8 +103,7 @@ function Footer() {
                   </ul>
                 </div>
                 <div className="app-download d-flex list-unstyled ">
-
-                  <StoreLikes  
+                  <StoreLikes
                     src={googleLink}
                     href={"https://play.google.com/store/"}
                     alt={" google-store"}
@@ -115,7 +114,6 @@ function Footer() {
                     href={"https://www.apple.com/in/app-store/"}
                     alt={"apple-playstore"}
                   />
-
                 </div>
               </div>
             </div>

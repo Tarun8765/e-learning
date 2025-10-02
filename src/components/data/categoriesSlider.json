@@ -1,0 +1,46 @@
+{
+  "categoriesItens": [
+    {
+      "href": "#",
+      "iconUrl": "../../../public/images/categoriesIcons/curve.png",
+      "name": "Graphic Design",
+      "courses": "29"
+    },
+    {
+      "href": "#",
+      "iconUrl": "../../../public/images/categoriesIcons/stats.png",
+      "name": "Finance",
+      "courses": "23"
+    },
+    {
+      "href": "#",
+      "iconUrl": "../../../public/images/categoriesIcons/coding.png",
+      "name": "Development ",
+      "courses": "14"
+    },
+    {
+      "href": "#",
+      "iconUrl": "../../../public/images/categoriesIcons/social-media.png",
+      "name": "Marketing",
+      "courses": "22"
+    },
+    {
+      "href": "#",
+      "iconUrl": "../../../public/images/categoriesIcons/health.png",
+      "name": "Life Style",
+      "courses": "30"
+    },
+    {
+      "href": "#",
+      "iconUrl": "../../../public/images/categoriesIcons/management.png",
+      "name": "Management",
+      "courses": "45"
+    },
+    {
+      "href": "#",
+      "iconUrl": "../../../public/images/categoriesIcons/ui-design.png",
+      "name": "App Design",
+      "courses": "28"
+    }
+  ]
+}
