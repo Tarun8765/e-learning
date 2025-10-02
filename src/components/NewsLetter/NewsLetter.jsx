@@ -13,15 +13,15 @@ const NewsLetter = () => {
               <img src={boy} alt="img"></img>
             </div>
           </div>
-          <div className="col-lg-8">
-            <div className="row">
-              <div className="newsletter__content col-md-9">
-                <h2 className="title ">
+          <div classNameName="col-lg-8">
+            <div classNameName="row">
+              <div classNameName="newsletter__content col-md-9">
+                <h2 classNameName="title ">
                   Want to stay <strong>informed</strong>"about"
                   <strong> new courses</strong> &amp; study?
                 </h2>
-                <div className="newsletter__form">
-                  <form action="#" className="d-flex">
+                <div classNameName="newsletter__form">
+                  <form action="#" classNameName="d-flex">
                     <input placeholder="Type your email" type="email" />
                     <button type="submit" className="btn">
                       subscrib Now

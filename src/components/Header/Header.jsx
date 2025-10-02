@@ -126,6 +126,7 @@ function Header() {
                           <span id="wish_count" className="wishlist-count">
                             0
                           </span>
+                          <span className="wishlist-count bg-warning border rounded-circle p-1"></span>
                         </a>
                       </li>
                       <li

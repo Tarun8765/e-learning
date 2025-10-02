@@ -1,4 +1,5 @@
 import React from 'react'
+import './FeaturesItem.css'
 
 export default function FeaturesItem({src,alt,heading, comtent, content_wraper, img_wraper, item_wraper, item_title_class }) {
   return (

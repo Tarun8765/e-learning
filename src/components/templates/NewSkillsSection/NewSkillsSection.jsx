@@ -1,6 +1,14 @@
 import React from "react";
 import "./NewSkillsSection.css";
 import SectionHeader from "../../organisms/SectionHeader/SectionHeader";
+import React from "react";
+import "./NewSkillsSection.css";
+import SectionHeader from "../../organisms/SectionHeader/SectionHeader";
+import mockData from "../../data/NewSkillsData.json";
+import OfferFeatureItem from "../../molecules/OfferFeatureItem/OfferFeatureItem";
+import Certificate from "../../atoms/Icons/Certificate";
+import Book from "../../atoms/Icons/Book";
+import EducationCap from "../../atoms/Icons/EducationCap";
 
 export default function NewSkillsSection() {
   return (

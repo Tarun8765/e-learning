@@ -1,0 +1,31 @@
+.breadcrumb_area{
+    position: relative;
+}
+.breadcrumb_bg{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.breadcrumb__content .title {
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 1.2;
+}
+.breadcrumb span{
+    font-size: 16px;
+}
+.linkItemListElement a{
+    color: #1c1a4a;
+    text-decoration: none;
+}
+.itemListElement{
+    color: #5751e1;
+}
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    gap: 10px;
+}

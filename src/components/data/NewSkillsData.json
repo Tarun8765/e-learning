@@ -1,0 +1,27 @@
+{
+    "offerNewSkillsHeading":{
+        "title":"What We Offer",
+        "heading":"Learn New Skills When And Where You Like",
+        "content":"when known printer took a galley of type scrambl edmake"
+    },
+    "offerNewSkillsList":[
+        {
+            "title":"Expert Tutors",
+            "content":"when an unknown printer took a galley offe type and scrambled makes.",
+            "icon":"graduationCap",
+            "extraIcon":true
+        },
+        {
+            "title":"Effective Courses",
+            "content":"when an unknown printer took a galley offe type and scrambled makes.",
+            "icon":"book",
+            "extraIcon":true
+        },
+        {
+            "title":"Earn Certificate",
+            "content":"when an unknown printer took a galley offe type and scrambled makes.",
+            "icon":"certificate",
+            "extraIcon":true
+        }
+    ]
+}
