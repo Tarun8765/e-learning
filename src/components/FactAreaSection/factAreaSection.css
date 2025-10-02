@@ -1,0 +1,48 @@
+.fact_inner-wrap {
+  background: #282568;
+  padding: 94px 70px 64px;
+  border-radius: 40px;
+  box-shadow: 0px 25px 70px 0px rgba(40, 37, 104, 0.4);
+  z-index: 3;
+  position: relative;
+}
+.fact-row {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.fact_item::before {
+  content: "";
+  position: absolute;
+  right: -15px;
+  top: -10%;
+  width: 2px;
+  height: 108px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.fact-description {
+  margin-top: 0;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.fact_item .count {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 56px;
+  line-height: 0.84;
+  font-family: sans-serif;
+}

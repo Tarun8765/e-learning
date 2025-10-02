@@ -85,3 +85,6 @@ img {
 .See-all-btn {
   color: aqua;
 }
+.section-head {
+  max-width: 400px;
+}

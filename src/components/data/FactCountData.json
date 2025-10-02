@@ -1,0 +1,28 @@
+{
+  "factCountData": [
+    {
+      "start": "0",
+      "end": "299",
+      "figure": "K+",
+      "description": "Active Student"
+    },
+    {
+      "start": "0",
+      "end": "500",
+      "figure": "+",
+      "description": "Faculty Courses"
+    },
+    {
+      "start": "0",
+      "end": "199",
+      "figure": "+",
+      "description": "Best Professors"
+    },
+    {
+      "start": "0",
+      "end": "299",
+      "figure": "+",
+      "description": "Award Achied"
+    }
+  ]
+}

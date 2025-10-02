@@ -1,7 +1,7 @@
 import "../SocialLinks/socialLinks.css";
 import { SocialIcon } from "react-social-icons";
 import linkItems from "../../../data/navItems.json";
-
+import { Link } from "react-router-dom";
 function SocialLinks() {
   return (
     <div className="instuctor_social">
@@ -9,7 +9,7 @@ function SocialLinks() {
         {linkItems?.SocialLinks?.map((item, index) => {
           return (
             <li key={index} className="">
-              <a
+              <i
                 style={{ width: "30px", height: "30px" }}
                 className="Linksitems"
                 href="#"
@@ -28,7 +28,7 @@ function SocialLinks() {
                     url={item.url}
                   />
                 </i>
-              </a>
+              </i>
             </li>
           );
         })}

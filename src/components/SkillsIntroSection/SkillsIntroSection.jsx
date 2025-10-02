@@ -11,8 +11,8 @@ function SkillsIntroSection() {
           <div className="col-xl-4 mb-5">
             <div className="instructor_content-wrap">
               <CourseHead
-                classSection={"  flex-direction-column"}
-                classSubTitle={"text-start sub-title"}
+                classSection={"flex-direction-column section-head"}
+                classSubTitle={"text-start sub-title mb-4"}
                 classTitle={"text-start title"}
                 classDescription={"text-start"}
                 desciption={
