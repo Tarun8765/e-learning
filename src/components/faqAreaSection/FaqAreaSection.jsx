@@ -472,7 +472,7 @@ function FaqAreaSection() {
           <div className="col-lg-6">
             <div className="faq_content">
               <CourseHead
-                classDescription={"text-start"}
+                classDescription={"text-start description"}
                 classSubTitle={"text-start sub-title mb-4"}
                 classSection={"flex-direction-column section-head"}
                 subTitle={"Faq's"}
@@ -481,6 +481,27 @@ function FaqAreaSection() {
                   "Groove's intuitive shared inbox makes it easy for team members to organize, prioritize and.In this episode."
                 }
               />
+            </div>
+            <div className="faq_wrap">
+              <p className="d-inline-flex gap-1">
+                <a
+                  className="  collapsed"
+                  data-bs-toggle="collapse"
+                  href="#collapseExample"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Link with href
+                </a>
+              </p>
+              <div className="collapse" id="collapseExample">
+                <div className="border-top text-dark">
+                  Some placeholder content for the collapse component. This
+                  panel is hidden by default but revealed when the user
+                  activates the relevant trigger.
+                </div>
+              </div>
             </div>
           </div>
         </div>

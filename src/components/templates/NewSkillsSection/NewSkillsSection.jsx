@@ -1,7 +1,3 @@
-import React from "react";
-import "./NewSkillsSection.css";
-import SectionHeader from "../../organisms/SectionHeader/SectionHeader";
-import React from "react";
 import "./NewSkillsSection.css";
 import SectionHeader from "../../organisms/SectionHeader/SectionHeader";
 import mockData from "../../data/NewSkillsData.json";

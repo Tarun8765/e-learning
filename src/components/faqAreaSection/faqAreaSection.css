@@ -105,3 +105,10 @@
   height: 100%;
   display: block;
 }
+
+.description {
+  word-spacing: 1.5px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  line-height: 1.75;
+}

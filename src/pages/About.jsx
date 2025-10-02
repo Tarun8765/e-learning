@@ -7,15 +7,15 @@ import NewSkillsSection from "../components/templates/NewSkillsSection/NewSkills
 import Breadcrumb from "../components/templates/Breadcrumb/Breadcrumb";
 
 function About() {
-  // const breadcrumbList = [
-  //   {
-  //     href: "/",
-  //     text: "Home",
-  //   },
-  //   {
-  //     text: "About Us",
-  //   },
-  // ];
+  const breadcrumbList = [
+    {
+      href: "/",
+      text: "Home",
+    },
+    {
+      text: "About Us",
+    },
+  ];
   return (
     <>
       <Breadcrumb title="Who We Are" linkList={breadcrumbList} />
