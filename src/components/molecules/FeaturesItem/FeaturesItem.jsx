@@ -10,7 +10,7 @@ export default function FeaturesItem({src,alt,heading, comtent, content_wraper, 
         <div className={`features__content ${content_wraper ? content_wraper : ''}`}>
             <h4 className={`title ${item_title_class ? item_title_class : ''}`}>{heading}</h4>
             <p>{comtent}</p>
-        </div>
+        </div> 
     </div>
   )
 }

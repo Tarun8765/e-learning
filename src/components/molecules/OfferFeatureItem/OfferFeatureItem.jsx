@@ -17,7 +17,7 @@ export default function OfferFeatureItem({icon, title, content, starIcon, headin
             </div>
             {content ? <p>{content}</p> : ''}
         </div>
-        {starIcon ? 
+        {starIcon ?  
         <div className="features_item-shape">
             <Sparkles/>
         </div>

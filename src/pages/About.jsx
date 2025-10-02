@@ -25,7 +25,7 @@ function About() {
     <CourseSlider />
     <NewSkillsSection />
     <NewsLetterSection />
-    <FeaturesSection />
+    <FeaturesSection /> 
     <TestimonialSection/>
   </>
   );

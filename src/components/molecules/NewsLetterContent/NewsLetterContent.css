@@ -21,6 +21,6 @@
    font-weight: 400;
    font-family: 'Poppins', sans-serif;
 }
-.newsletter__form  ::placeholder{
+.newsletter__form  ::placeholder{ 
     color: #9d9bf1;
 }

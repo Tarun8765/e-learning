@@ -27,8 +27,8 @@ export default function NewSkillsSection() {
                                     title={item?.title} 
                                     content={item?.content} 
                                     starIcon={item?.extraIcon}
-                                    headingClass='h5'
-                                />
+                                    headingClass='h5' 
+                               /> 
                             </div>
                         )
                     })} 

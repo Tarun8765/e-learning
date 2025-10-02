@@ -8,7 +8,7 @@ function Home() {
   return (
     <div>
       <CourseSlider />
-      <NewsLetterSection />
+      <NewsLetterSection /> 
     </div>
   );
 }

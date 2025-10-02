@@ -6,7 +6,7 @@ import './NewsLetterLeftImage.css'
 
 export default function NewsLetterLeftImage() {
   return (
-    <div className="newsletter_img_wrap">
+    <div className="newsletter_img_wrap"> 
         <img className='newsletter_img1' src={boy} alt='newsletter-boy-image' />
         <img src={shape01} alt="shape01"  className="alltuchtopdown newsletter_img2" />
         <img src={shape02} alt="shape02" className=" nl-init nl-animate newsletter_img3" />
