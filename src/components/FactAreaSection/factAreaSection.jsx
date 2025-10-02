@@ -2,6 +2,7 @@ import "./factAreaSection.css";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import factCounterData from "../data/FactCountData.json";
+
 function FactAreaSection() {
   const { ref, inView } = useInView({
     triggerOnce: true, // run only once
