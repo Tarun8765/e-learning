@@ -6,6 +6,7 @@ import FaqAreaSection from "../components/faqAreaSection/FaqAreaSection";
 import BestCourseSection from "../components/BestCourseSection/BestCourseSection";
 import SkillsIntroSection from "../components/SkillsIntroSection/SkillsIntroSection";
 import FactAreaSection from "../components/FactAreaSection/factAreaSection";
+import NewsLetterSection from "../components/templates/NewsLetterSection/NewsLetterSection";
 function Home() {
   return (
     <div>
