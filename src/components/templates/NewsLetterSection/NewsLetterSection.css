@@ -16,5 +16,5 @@
     opacity: 1;
     transform: translateZ(0);
     transition-delay: 0;
-    transition-delay: .4s;
+    transition-delay: .4s; 
 }

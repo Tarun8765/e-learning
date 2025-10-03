@@ -43,7 +43,7 @@ export default function Breadcrumb({title, linkList}) {
                             <nav className="breadcrumb">
                                 {linkList?.map((data,index)=>{
 
-                                    return(
+                                    return( 
                                         <React.Fragment key={index}>
                                             {data?.href ? 
                                             <>

@@ -16,7 +16,7 @@ function Home() {
       <SkillsIntroSection />
       <FactAreaSection />
       <FaqAreaSection />
-      <NewsLetter />
+      <NewsLetterSection /> 
     </div>
   );
 }

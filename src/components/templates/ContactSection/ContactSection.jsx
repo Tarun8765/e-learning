@@ -144,7 +144,7 @@ export default function ContactSection() {
                                     className='btn_secondary hoverChange' 
                                     type='sublit' 
                                     text='Submit Now' 
-                                    iconStatus={true}
+                                    iconStatus={true} 
                                     icon={<RightArrow />}
                                     clickHandler={handleSubmit}
                                 />

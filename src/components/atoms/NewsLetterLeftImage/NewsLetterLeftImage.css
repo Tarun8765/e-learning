@@ -20,7 +20,7 @@
 .newsletter_img3{
     left: 5%;
     bottom: 0;
-    z-index: -1;
+    z-index: -1; 
     transition-timing-function: ease;
     transition-delay: 0;
     opacity: 1;
