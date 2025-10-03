@@ -42,3 +42,33 @@
   color: #161439;
   box-shadow: 0 0 0 0 #050071;
 }
+.btn_secondary svg{
+    color:#000;
+   
+}
+@keyframes bounceAlpha {
+    0% {opacity: 1; transform: translateX(0px) scale(1);}
+    25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+    26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+    55% {opacity: 1; transform: translateX(0px) scale(1);}
+  }
+
+.btn:hover svg{
+    animation-name: bounceAlpha;
+    animation-duration:0.5s;
+    animation-timing-function:linear;
+}
+.btn:hover svg{
+    animation-name: bounceAlpha;
+    animation-duration:0.5s;
+    animation-delay:0.2s;
+    animation-timing-function:linear;
+}
+.hoverChange:hover{
+    background: #5751e1;
+    color: #fff;
+}
+.hoverChange:hover svg{
+    color: #fff;
+}
+ 

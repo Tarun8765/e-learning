@@ -12,8 +12,8 @@ export default function TestimonialSection() {
                 title={mockData?.testimonialHeading?.title}
                 headingText={mockData?.testimonialHeading?.heading}
                 content={mockData?.testimonialHeading?.content}
-            />
-            <TestimonialSlider
+            /> 
+            <TestimonialSlider 
                 slides={mockData?.testimonialReview}
             />
         </div>

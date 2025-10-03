@@ -14,7 +14,7 @@ export default function TestimonialItem({userImage,name,comment,rating }) {
                 />
                 <div className="testimonial__author-content">
                     <Rating 
-                        ratingNo={rating}
+                        ratingNo={rating} 
                     />
                     <h4 className="testimonial_title">{name}</h4>
                 </div>
