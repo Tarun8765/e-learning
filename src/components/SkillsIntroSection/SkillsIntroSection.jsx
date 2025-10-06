@@ -24,7 +24,7 @@ function SkillsIntroSection() {
               <div className="d-flex mt-2">
                 <Button
                   text={"See All Instuctors"}
-                  className={"text-white btn-primary mt-4 "}
+                  className={"text-white btn_primary mt-4 "}
                 />
               </div>
             </div>

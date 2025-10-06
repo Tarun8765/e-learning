@@ -82,14 +82,12 @@
   transform: translateX(-50%);
   bottom: 0;
 }
-
 .faq_img img {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
 }
-
 .faq_img .shape-one svg {
   color: #fbe67b;
 }
@@ -111,4 +109,112 @@
   margin-bottom: 10px;
   font-family: sans-serif;
   line-height: 1.75;
+}
+
+.faq_content p {
+  margin-bottom: 10px;
+}
+
+/* ///////// accordion css ////////////*/
+.accordion {
+  outline: none !important;
+  padding: 0px;
+  background-color: transparent;
+  --bs-accordion-bg: none;
+  border-radius: 0;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: transparent !important;
+}
+.faq_wrap .accordion-item .accordion-header {
+  outline: none !important;
+  /* border: none !important; */
+  border-bottom: 1px solid #b2bbcc;
+  --bs-accordion-bg: none;
+  /* -bs-accordion-border-width: none; */
+}
+.accordion-header:focus {
+  outline: none;
+  box-shadow: none; /* removes glow effect */
+  background-color: transparent;
+  --bs-accordion-bg: none;
+  -bs-accordion-border-width: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: #6d6c80 !important;
+}
+.faq_wrap .accordion-body p {
+  margin-bottom: 0;
+  color: #1c1a4a;
+}
+.accordion-item .accordion-button::after {
+  content: url("/public/images/right-arrow\ \(2\).png");
+  background-image: none;
+  font-family: "flaticon_skill_grow";
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  top: 25px;
+  color: #1c1a4a;
+  box-shadow: none;
+  background: transparent;
+  font-weight: 700;
+}
+
+.accordion-item .accordion-button:hover::after {
+  color: #5751e1;
+}
+.accordion .accordion-item {
+  border: 0;
+  margin-top: 1px;
+  border-radius: 0;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+  color: #6d6c80 !important;
+
+  background-color: transparent !important;
+}
+.faq_wrap .accordion-body p {
+  margin-bottom: 0;
+  color: #1c1a4a;
+  font-size: 16px;
+  line-height: 1.75;
+  font-weight: 400;
+}
+.accordion-body {
+  padding: 0;
+  color: #1c1a4a;
+}
+.faq_wrap .accordion-item .accordion-button {
+  background-color: transparent;
+  letter-spacing: 0.5px;
+  border: none;
+  padding: 22px 0;
+  font-size: 23px;
+  font-weight: 500;
+  font-family: sans-serif;
+  border-radius: 0;
+  color: #6d6c80;
+  box-shadow: none;
+  position: relative;
+}
+.faq_wrap .accordion-item .accordion-button:hover {
+  color: #5751e1;
+  transition: 0.3s;
+}
+
+/*//////////////////// media queris /////////////// */
+
+@media (max-width: 1199.98px) {
+  .faq_img {
+    width: 400px;
+    height: 550px;
+  }
 }

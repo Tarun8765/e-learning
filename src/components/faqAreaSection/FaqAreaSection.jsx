@@ -1,11 +1,13 @@
 import "../faqAreaSection/faqAreaSection.css";
 import img from "../../../public/images/faq_img.png";
 import CourseHead from "../BestCourseSection/CourseHead/CourseHead";
+import Accordion from "react-bootstrap/Accordion";
+import "../faqAreaSection/accordion/accordion.css";
 function FaqAreaSection() {
   return (
     <section className="faq_area">
       <div className="container">
-        <div className="row ">
+        <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="faq_img-wrap tg-swg position-relative">
               <div className="faq_round-text">
@@ -469,7 +471,7 @@ function FaqAreaSection() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 p-5">
             <div className="faq_content">
               <CourseHead
                 classDescription={"text-start description"}
@@ -483,25 +485,52 @@ function FaqAreaSection() {
               />
             </div>
             <div className="faq_wrap">
-              <p className="d-inline-flex gap-1">
-                <a
-                  className="  collapsed"
-                  data-bs-toggle="collapse"
-                  href="#collapseExample"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample"
-                >
-                  Link with href
-                </a>
-              </p>
-              <div className="collapse" id="collapseExample">
-                <div className="border-top text-dark">
-                  Some placeholder content for the collapse component. This
-                  panel is hidden by default but revealed when the user
-                  activates the relevant trigger.
-                </div>
-              </div>
+              <Accordion defaultActiveKey="0">
+                <Accordion.Item eventKey="1">
+                  <Accordion.Header as={"h3"} id="heading">
+                    What's Skillgrow Want to give you?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Groove s intuitive shared inbox makes it easy for team
+                    members organize prioritize and.In this episode.urvived not
+                    only five centuries.Edhen an unknown printer took a galley
+                    of type and scrambl
+                  </Accordion.Body>
+                </Accordion.Item>{" "}
+                <Accordion.Item eventKey="2">
+                  <Accordion.Header as={"h3"}>
+                    Why choose us for your education?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Groove s intuitive shared inbox makes it easy for team
+                    members organize prioritize and.In this episode.urvived not
+                    only five centuries.Edhen an unknown printer took a galley
+                    of type and scrambl
+                  </Accordion.Body>
+                </Accordion.Item>{" "}
+                <Accordion.Item eventKey="3">
+                  <Accordion.Header as={"h3"}>
+                    How We Provide Service For you?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Groove s intuitive shared inbox makes it easy for team
+                    members organize prioritize and.In this episode.urvived not
+                    only five centuries.Edhen an unknown printer took a galley
+                    of type and scrambl
+                  </Accordion.Body>
+                </Accordion.Item>{" "}
+                <Accordion.Item eventKey="4">
+                  <Accordion.Header as={"h3"}>
+                    How We Provide Service For You?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Groove s intuitive shared inbox makes it easy for team
+                    members organize prioritize and.In this episode.urvived not
+                    only five centuries.Edhen an unknown printer took a galley
+                    of type and scrambl
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
             </div>
           </div>
         </div>

@@ -4,12 +4,12 @@ import "../Course_item/course_item.css";
 function Course_item({ data }) {
   return (
     <div className="item card">
-      <div className="inter-container">
-        <div>
+      <div className="inter-container ">
+        <div className="holographic-card">
           <img
             className="w-100"
             src={data?.imgURL ? data?.imgURL : img}
-            alt=""
+            alt="img"
           />
         </div>
         <div className="card-body">

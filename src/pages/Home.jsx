@@ -1,5 +1,5 @@
 import CourseSlider from "../components/organisms/CourseSlider/CourseSlider";
-import NewsLetter from "../components/newsletter/newsletter";
+
 import BannerSection from "../components/BannerSection/BannerSection";
 import CategoriesSection from "../components/CategoriesSection/CategoriesSection";
 import FaqAreaSection from "../components/faqAreaSection/FaqAreaSection";
@@ -16,7 +16,6 @@ function Home() {
       <SkillsIntroSection />
       <FactAreaSection />
       <FaqAreaSection />
-      <NewsLetter />
     </div>
   );
 }

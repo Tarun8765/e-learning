@@ -1,0 +1,25 @@
+.my-accordion {
+  border: none;
+  /* padding: 10px; */
+}
+
+.my-item {
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.my-header {
+  background: #222;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.my-body {
+  padding: 15px;
+  background: #f8f8f8;
+  color: #333;
+  font-size: 14px;
+}
