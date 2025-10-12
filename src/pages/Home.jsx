@@ -1,5 +1,5 @@
 import CourseSlider from "../components/organisms/CourseSlider/CourseSlider";
-
+import AboutAreaSection from "../components/AboutAreaSection/AboutAreaSection";
 import BannerSection from "../components/BannerSection/BannerSection";
 import CategoriesSection from "../components/CategoriesSection/CategoriesSection";
 import FaqAreaSection from "../components/faqAreaSection/FaqAreaSection";
@@ -11,6 +11,7 @@ function Home() {
     <div>
       <BannerSection />
       <CategoriesSection />
+      <AboutAreaSection />
       <BestCourseSection />
       <CourseSlider />
       <SkillsIntroSection />

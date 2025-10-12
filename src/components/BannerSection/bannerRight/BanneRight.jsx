@@ -31,7 +31,7 @@ function BanneRight() {
         alt="shape"
         className="shape small-shape tg-motion-effects3"
       />
-      <div className="banner_author">
+      <div className="banner_author ">
         <div className="banner_author-item">
           <div className="image">
             <img className="w-100" src={autImge1} alt="img" />

@@ -132,14 +132,17 @@
   border-radius: 50px;
   background-color: rgb(255 193 7);
 }
-.btn-primary {
-  border-radius: 50px;
-  color: #5751e1;
-  background-color: transparent;
-  height: 50px;
-  width: 50px;
+
+.tg-btn img {
+  color: red;
+  max-width: 100%;
+  background-color: transparent !important;
+  background: transparent !important;
 }
 
-/* .tg-flaticon-menu-1:before {
-  content: url("/public/images/logo.svg");
-} */
+.tg-btn {
+  width: 30px;
+  height: 30px;
+  border: none !important;
+  outline: none;
+}

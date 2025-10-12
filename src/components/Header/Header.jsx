@@ -1,11 +1,12 @@
 import navData from "../data/navItems.json";
 import { Link } from "react-router-dom";
 import mainLogo from "/images/logo.svg";
+import tgMenu from "../../../public/images/menuNavigation.svg";
 import TopHeader from "./topHeader/TopHeader";
 import "../../components/Header/Header.css";
 import { FaSearch } from "react-icons/fa";
 import { useState } from "react";
-import Button from "react-bootstrap/Button";
+
 import Offcanvas from "react-bootstrap/Offcanvas";
 function Header() {
   const [show, setShow] = useState(false);
@@ -20,7 +21,7 @@ function Header() {
         className="tg-header_area d-flex align-items-center"
       >
         <div className="container custom-container d-flex justify-content-center ">
-          <div className="header_row row d-flex flex-wrap mt-0 flex-wrap ">
+          <div className="header_row row d-flex flex-wrap mt-0  ">
             <div className="col-12 w-100 ">
               <div className="tgmenu_wrap d-block">
                 <nav className="tgmenu_nav d-flex align-items-center justify-content-center">
@@ -181,33 +182,31 @@ function Header() {
                     </ul>
                   </div>
                   <div className="mobile-nav-toggler d-lg-none">
-                    <i className="tg-flaticon-menu-1">
-                      <Button
-                        variant="primary"
-                        onClick={handleShow}
-                        className="me-2"
-                      >
-                        <img src="/images/app.png" alt="" />
-                      </Button>
-                      <Offcanvas
-                        show={show}
-                        onHide={handleClose}
-                        placement={"end"}
-                      >
-                        <Offcanvas.Header closeButton>
-                          <Offcanvas.Title>
-                            <div className="tg-logo">
-                              <img src={"/images/logo.svg"} alt="" />
-                            </div>
-                          </Offcanvas.Title>
-                        </Offcanvas.Header>
-                        <Offcanvas.Body>
-                          Some text as placeholder. In real life you can have
-                          the elements you have chosen. Like, text, images,
-                          lists, etc.
-                        </Offcanvas.Body>
-                      </Offcanvas>
-                    </i>
+                    <button
+                      variant="primary"
+                      onClick={handleShow}
+                      className="me-2 tg-btn "
+                    >
+                      <img className="" src={tgMenu} alt="logo image" />
+                    </button>
+                    <Offcanvas
+                      show={show}
+                      onHide={handleClose}
+                      placement={"end"}
+                    >
+                      <Offcanvas.Header closeButton>
+                        <Offcanvas.Title>
+                          <div className="tg-logo">
+                            <img src={"/images/logo.svg"} alt="" />
+                          </div>
+                        </Offcanvas.Title>
+                      </Offcanvas.Header>
+                      <Offcanvas.Body>
+                        Some text as placeholder. In real life you can have the
+                        elements you have chosen. Like, text, images, lists,
+                        etc.
+                      </Offcanvas.Body>
+                    </Offcanvas>
                   </div>
                 </nav>
               </div>
