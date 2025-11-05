@@ -17,14 +17,17 @@ function About() {
     },
   ];
   return (
-    <>
-      <Breadcrumb title="Who We Are" linkList={breadcrumbList} />
-      <NewSkillsSection />
-      <NewsLetterSection />
-      <FeaturesSection />
-      <CourseSlider />
-      <TestimonialSection />
-    </>
+  <>
+    <Breadcrumb 
+      title='Who We Are'
+      linkList={breadcrumbList}
+    />
+    <CourseSlider />
+    <NewSkillsSection />
+    <NewsLetterSection />
+    <FeaturesSection /> 
+    <TestimonialSection/>
+  </>
   );
 }
 

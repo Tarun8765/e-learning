@@ -7,6 +7,7 @@ import BestCourseSection from "../components/BestCourseSection/BestCourseSection
 import SkillsIntroSection from "../components/SkillsIntroSection/SkillsIntroSection";
 import FactAreaSection from "../components/FactAreaSection/factAreaSection";
 import NewsBlogSection from "../components/BlogAeaSection/BlogAreaSection";
+import NewsLetterSection from "../components/templates/NewsLetterSection/NewsLetterSection";
 function Home() {
   return (
     <div>
@@ -19,6 +20,7 @@ function Home() {
       <FactAreaSection />
       <FaqAreaSection />
       <NewsBlogSection />
+      <NewsLetterSection />
     </div>
   );
 }

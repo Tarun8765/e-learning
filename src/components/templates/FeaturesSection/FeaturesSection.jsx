@@ -29,11 +29,11 @@ export default function FeaturesSection() {
                                     img_wraper='mb_20'
                                     item_wraper='text-center'
                                     item_title_class="text-white h4 mb_10"
-                                />
+                                /> 
                             </div>
                         )
                     })}
-                </div>
+                </div> 
             </div>
         </section>
   )

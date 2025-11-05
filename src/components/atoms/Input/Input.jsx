@@ -10,5 +10,5 @@ export default function Input({type, name, placeholder,required=false, id, class
             <input className={className ? className :''} id={id ? id :'' } name={name} type={type ? type :'text' } placeholder={placeholder} required={required} onChange={onChange} defaultValue={value}/>
         }
     </div>
-  )
+  ) 
 }

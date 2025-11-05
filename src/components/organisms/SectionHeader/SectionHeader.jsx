@@ -10,7 +10,7 @@ export default function SectionHeader({title, headingText, content, columnSize ,
         <div className={`${columnSize ? columnSize : ' col-xl-5 '} col-lg-8`}>
             <div className={`section_title  mb-50 ${classNameWrapper ? classNameWrapper :''} ${textAlignment ? textAlignment : 'text-center '}`}>
                 {title ? <Title 
-                  title={title}
+                  title={title} 
                   className={classNameTitle}
                 />  : ''}
                 {headingText ? <SectionHeading 

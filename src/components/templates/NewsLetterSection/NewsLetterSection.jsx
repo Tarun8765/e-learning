@@ -17,7 +17,7 @@ export default function NewsLetterSection() {
                 <div className="col-lg-6">
                     <NewsLetterContent />
                 </div>
-            </div>
+            </div> 
         </div>
         <div className="newsletter__shape">
             <img src={backgroundImage} alt="background-image" className="nl-init nl-animate" />
