@@ -1,5 +1,5 @@
 import "../faqAreaSection/faqAreaSection.css";
-import img from "../../../public/images/faq_img.png";
+import img from "/images/faq_img.png";
 import CourseHead from "../BestCourseSection/CourseHead/CourseHead";
 import Accordion from "react-bootstrap/Accordion";
 import "../faqAreaSection/accordion/accordion.css";

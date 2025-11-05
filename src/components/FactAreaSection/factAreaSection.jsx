@@ -16,7 +16,7 @@ function FactAreaSection() {
             {factCounterData?.factCountData?.map((item, index) => {
               return (
                 <div key={index} className="col-lg-3 col-6">
-                  <div className="fact_item  position-relative">
+                  <div className="fact_item position-relative">
                     <div
                       ref={ref}
                       style={{ height: "100px", textAlign: "center" }}

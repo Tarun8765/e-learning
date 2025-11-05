@@ -25,6 +25,9 @@
   background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
 
+.fact_item .no-before::before {
+  content: none !important;
+}
 .fact-description {
   margin-top: 0;
   font-weight: 500;

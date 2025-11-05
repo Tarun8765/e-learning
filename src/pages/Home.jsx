@@ -6,17 +6,19 @@ import FaqAreaSection from "../components/faqAreaSection/FaqAreaSection";
 import BestCourseSection from "../components/BestCourseSection/BestCourseSection";
 import SkillsIntroSection from "../components/SkillsIntroSection/SkillsIntroSection";
 import FactAreaSection from "../components/FactAreaSection/factAreaSection";
+import NewsBlogSection from "../components/BlogAeaSection/BlogAreaSection";
 function Home() {
   return (
     <div>
       <BannerSection />
       <CategoriesSection />
+      <CourseSlider />
       <AboutAreaSection />
       <BestCourseSection />
-      <CourseSlider />
       <SkillsIntroSection />
       <FactAreaSection />
       <FaqAreaSection />
+      <NewsBlogSection />
     </div>
   );
 }

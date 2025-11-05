@@ -1,4 +1,5 @@
 import "../AboutAreaSection/aboutAreaSection.css";
+import Button from "../atoms/Button/Button";
 import CourseHead from "../BestCourseSection/CourseHead/CourseHead";
 // import img from "../../../public/images/student_";
 function AboutAreaSection() {
@@ -52,8 +53,17 @@ function AboutAreaSection() {
                 <span className="sub_title">Get More About Us</span>
                 <h2 className="title">
                   Thousand Of Top
-                  <span className="position-relative">
+                  <span
+                    className="position-relative text-light"
+                    style={{ marginLeft: "12px", marginRight: "14px" }}
+                  >
                     <svg
+                      style={{
+                        width: "191.275px",
+                        height: "48.8px",
+                        color: "#ffc224",
+                        // position: "absolute",
+                      }}
                       x="0px"
                       y="0px"
                       preserveAspectRatio="none"
@@ -64,9 +74,10 @@ function AboutAreaSection() {
                       <path
                         d="M4.74438 7.70565C69.7006 -1.18799 136.097 -2.38304 203.934 4.1205C207.178 4.48495 209.422 7.14626 208.933 10.0534C206.793 23.6481 205.415 36.5704 204.801 48.8204C204.756 51.3291 202.246 53.5582 199.213 53.7955C136.093 59.7623 74.1922 60.5985 13.5091 56.3043C10.5653 56.0924 7.84371 53.7277 7.42158 51.0325C5.20725 38.2627 2.76333 25.6511 0.0898448 13.1978C-0.465589 10.5873 1.61173 8.1379 4.73327 7.70565"
                         fill="currentcolor"
+                        className="svg-icon"
                       ></path>
-                      Courses
                     </svg>
+                    Courses
                   </span>
                   Now in One Place
                 </h2>
@@ -78,7 +89,7 @@ function AboutAreaSection() {
               </p>
               <ul className="about_info-list list-wrap">
                 <li className="about_info-list-item">
-                  <i className="flation-angle-right"></i>
+                  <i className="flation-angle-right"> </i>
                   <p className="content">The Most World Class Instructors</p>
                 </li>
                 <li className="about_info-list-item">
@@ -90,6 +101,9 @@ function AboutAreaSection() {
                   <p className="content">The Most World Class Instructors</p>
                 </li>
               </ul>
+              <div className="tg-button-wrap btn-primary">
+                <Button className={"btn"} text={"Start Free Trial ->"} />
+              </div>
             </div>
           </div>
         </div>
